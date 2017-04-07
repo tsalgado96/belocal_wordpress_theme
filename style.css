@@ -1,0 +1,328 @@
+/*
+Theme Name: BeLocal Group Custom Theme
+Theme URI: http://wordpress.org/themes/
+Author: Teodoro Salgado
+Author URI: http://tjsalgado.com/
+Description: A custom theme developed for the BeLocal Group
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: belocal
+*/
+
+
+/*GLOBAL STYLING */
+body, html {
+  font-family: "Raleway", sans-serif !important;
+  height: 100%;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #629632 !important;
+  background-color: transparent !important;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #629632 !important;
+  text-decoration: none;
+  background-color: transparent !important;
+  outline: 0;
+}
+
+/*Content Containers */
+.content {
+  height: 70vh;
+  background-color: #eeeeee;
+}
+
+.maxContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*Navbar */
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: none !important;
+}
+
+ul.navbar-nav {
+  font-size: 1.4em;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+ul.nav a {
+  color: #333 !important; }
+  ul.nav a:hover {
+    color: #629632 !important; }
+
+.whiteBorder {
+  border: 2px solid #d0d0d0;
+  padding: 10px;
+}
+
+/*Footer */
+footer {
+  height: 100px;
+  padding-top: 40px; }
+  footer p {
+    margin: 0 auto; }
+
+/*HOME PAGE */
+
+/*Home Page Jumbotron */
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #fff !important; }
+
+/*What We're About */
+#work {
+  padding-bottom: 50px; }
+  #work h1 {
+    font-weight: 300;
+    margin-top: 50px;
+    font-size: 3em;
+    color: #414141; }
+  #work h2 {
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 1.8em;
+    color: #414141; }
+  #work h3 {
+    font-weight: 300;
+    color: #606060; }
+  #work p {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #787878; }
+
+/*Initiatives */
+
+  #initiativesHome h1 {
+    color: #fff;
+    font-weight: 300;
+    margin: 50px 0 125px 0; }
+  #initiativesHome span {
+    font-size: 100px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    transition: background-color 0.25s, border 0.25s;
+    border-radius: 0;
+    font-weight: 300; }
+    @media screen and (max-width: 650px) {
+      #initiativesHome span {
+        font-size: 55px; } }
+    #initiativesHome span:hover {
+      background-color: #629632;
+      border: 1px solid #629632;
+      color: #fff; }
+  #initiativesHome a:hover {
+    text-decoration: none; }
+
+/*The BeLocal Process */
+#process {
+  padding-bottom: 50px; }
+  #process h1 {
+    font-weight: 300;
+    margin-top: 50px;
+    font-size: 3em;
+    color: #414141; }
+  #process h2 {
+    margin-top: 30px;
+    font-weight: 300; }
+  #process p {
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #787878; }
+
+/*Opportunities */
+
+  #opportunities h1 {
+    color: #fff;
+    font-weight: 300;
+    margin-top: 50px; }
+  #opportunities p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-top: 90px; }
+  #opportunities a {
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    margin-top: 50px;
+    color: #fff;
+    width: 135px;
+    transition: background-color 0.2s, border 0.2s, width 0.1s;
+    border-radius: 0; }
+    #opportunities a:hover {
+      background-color: #629632;
+      border: 1px solid #629632;
+      color: #fff;
+      width: 140px; }
+
+
+/*
+*************************************
+Login Page
+*************************************
+*/
+/*
+ * Specific styles of signin component
+ */
+/*
+ * General styles
+ */
+.loginContainer {
+  height: 100vh;
+  /*background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+  background-color: #c1c1c1;
+  padding-top: 150px;
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 20px 40px;
+}
+
+.card-container h4 {
+  color: #6e6b6b;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 10px 25px 30px;
+    margin: 0 auto 0;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
