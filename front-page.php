@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<!--THIS IS A TEST FOR GIT -->
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +13,15 @@
     <!-- Google Fonts: Raleway -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700" rel="stylesheet">
 
+    <!-- Main Stylsheet -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -108,7 +111,7 @@
 
   <div id="initiativesHome" class="container-fluid content text-center">
     <h1>Current Initiative</h1>
-    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Active Projects' ) ) ); ?>"><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span></a>
+    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Community' ) ) ); ?>"><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span></a>
   </div>
 
   <section id="process" class="container-fluid text-center">
