@@ -8,12 +8,10 @@
       </div>
 
       <div class="row">
-
         <div class="col-sm-8 blog-main">
-
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <div class="blog-post">
-            <h2 class="blog-post-title"><?php the_title(); ?></h2>
+            <a href="<?php echo get_permalink();?>"><h2 class="blog-post-title"><?php the_title(); ?></h2></a>
             <?php the_content(); ?>
           </div><!-- /.blog-post -->
         <?php endwhile; else : ?>
@@ -26,13 +24,10 @@
             <h4><?php echo get_theme_mod('community_sidebar_heading', 'About'); ?></h4>
             <p><?php echo get_theme_mod('community_sidebar_text', 'Place description here'); ?></p>
           </div>
-      
           <?php if(is_active_sidebar('sidebar')): ?>
           <?php dynamic_sidebar('sidebar'); ?>
           <?php endif; ?>
-
         </div><!-- /.blog-sidebar -->
-
       </div><!-- /.row -->
 
     </div><!-- /.container -->
