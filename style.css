@@ -10,6 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: belocal
 */
 
+/*Original Green: #629632*/
 
 /*
 *************************************
@@ -24,14 +25,14 @@ body, html {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #629632 !important;
+  color: #50BF41 !important;
   background: none !important;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #629632 !important;
+  color: #50BF41 !important;
   text-decoration: none;
   background-color: transparent !important;
   outline: 0;
@@ -44,7 +45,7 @@ body, html {
 }
 
 .sidebar-module a {
-  color: #629632;
+  color: #50BF41;
 }
 
 /*Content Containers */
@@ -83,9 +84,12 @@ ul.navbar-nav {
 }
 
 ul.nav a {
-  color: #333 !important; }
-  ul.nav a:hover {
-    color: #629632 !important; }
+  color: #333 !important;
+}
+
+ul.nav a:hover {
+  color: #50BF41 !important;
+}
 
 .whiteBorder {
   border: 2px solid #d0d0d0;
@@ -95,9 +99,12 @@ ul.nav a {
 /*Footer */
 footer {
   height: 100px;
-  padding-top: 40px; }
-  footer p {
-    margin: 0 auto; }
+  padding-top: 40px;
+}
+
+footer p {
+  margin: 0 auto;
+}
 
 /*
 *************************************
@@ -108,95 +115,134 @@ footer {
 /*Home Page Jumbotron */
 .jumbotron {
   background-color: rgba(255, 255, 255, 0) !important;
-  color: #fff !important; }
+  color: #fff !important;
+}
+
+.jumbotron img {
+  max-height: 275px;
+  height: auto;
+  width: 100%;
+}
 
 /*What We're About */
 #work {
-  padding-bottom: 50px; }
-  #work h1 {
-    font-weight: 300;
-    margin-top: 50px;
-    font-size: 3em;
-    color: #414141; }
-  #work h2 {
-    font-weight: 300;
-    margin-top: 40px;
-    font-size: 1.8em;
-    color: #414141; }
-  #work h3 {
-    font-weight: 300;
-    color: #606060; }
-  #work p {
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #787878; }
+  padding-bottom: 50px;
+}
+#work h1 {
+  font-weight: 300;
+  margin-top: 50px;
+  font-size: 3em;
+  color: #414141;
+}
+
+#work h2 {
+  font-weight: 300;
+  margin-top: 40px;
+  font-size: 1.8em;
+  color: #414141;
+}
+
+#work h3 {
+  font-weight: 300;
+  color: #606060;
+}
+
+#work p {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #787878;
+}
 
 /*Initiatives */
 
-  #initiativesHome h1 {
-    color: #fff;
-    font-weight: 300;
-    margin: 50px 0 125px 0; }
+#initiativesHome h1 {
+  color: #fff;
+  font-weight: 300;
+  margin: 50px 0 125px 0;
+}
+
+#initiativesHome span {
+  font-size: 100px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  transition: background-color 0.25s, border 0.25s;
+  border-radius: 0;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 650px) {
   #initiativesHome span {
-    font-size: 100px;
-    background-color: transparent;
-    border: 1px solid #fff;
-    outline: none;
-    color: #fff;
-    transition: background-color 0.25s, border 0.25s;
-    border-radius: 0;
-    font-weight: 300; }
-    @media screen and (max-width: 650px) {
-      #initiativesHome span {
-        font-size: 55px; } }
-    #initiativesHome span:hover {
-      background-color: #629632;
-      border: 1px solid #629632;
-      color: #fff; }
-  #initiativesHome a:hover {
-    text-decoration: none; }
+    font-size: 15vw;
+  }
+}
+
+#initiativesHome span:hover {
+  background-color: #50BF41;
+  border: 1px solid #50BF41;
+  color: #fff;
+}
+
+#initiativesHome a:hover {
+  text-decoration: none;
+}
 
 /*The BeLocal Process */
 #process {
-  padding-bottom: 50px; }
-  #process h1 {
-    font-weight: 300;
-    margin-top: 50px;
-    font-size: 3em;
-    color: #414141; }
-  #process h2 {
-    margin-top: 30px;
-    font-weight: 300; }
-  #process p {
-    font-weight: 300;
-    font-size: 1.2em;
-    color: #787878; }
+  padding-bottom: 50px;
+}
+
+#process h1 {
+  font-weight: 300;
+  margin-top: 50px;
+  font-size: 3em;
+  color: #414141;
+}
+
+#process h2 {
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+#process p {
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #787878;
+}
 
 /*Opportunities */
 
-  #opportunities h1 {
-    color: #fff;
-    font-weight: 300;
-    margin-top: 50px; }
-  #opportunities p {
-    color: #fff;
-    font-weight: 300;
-    font-size: 1.3em;
-    margin-top: 90px; }
-  #opportunities a {
-    background-color: transparent;
-    border: 1px solid #fff;
-    outline: none;
-    margin-top: 50px;
-    color: #fff;
-    width: 135px;
-    transition: background-color 0.2s, border 0.2s, width 0.1s;
-    border-radius: 0; }
-    #opportunities a:hover {
-      background-color: #629632;
-      border: 1px solid #629632;
-      color: #fff;
-      width: 140px; }
+#opportunities h1 {
+  color: #fff;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+#opportunities p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-top: 90px;
+}
+
+#opportunities a {
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  margin-top: 50px;
+  color: #fff;
+  width: 135px;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+
+#opportunities a:hover {
+  background-color: #50BF41;
+  border: 1px solid #50BF41;
+  color: #fff;
+  width: 140px;
+}
 
 /*
 *************************************
@@ -242,6 +288,7 @@ body {
   font-weight: 500;
   color: #cdddeb;
 }
+
 .blog-nav-item:hover,
 .blog-nav-item:focus {
   color: #fff;
@@ -252,6 +299,7 @@ body {
 .blog-nav .active {
   color: #fff;
 }
+
 .blog-nav .active:after {
   position: absolute;
   bottom: 0;
@@ -275,12 +323,14 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
 .blog-title {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 60px;
   font-weight: normal;
 }
+
 .blog-description {
   font-size: 20px;
   color: #999;
@@ -301,11 +351,13 @@ body {
   padding: 15px;
   margin: 0 -15px 15px;
 }
+
 .sidebar-module-inset {
   padding: 15px;
   background-color: #f5f5f5;
   border-radius: 4px;
 }
+
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
@@ -318,6 +370,7 @@ body {
   margin-bottom: 60px;
   text-align: left;
 }
+
 .pager > li > a {
   width: 140px;
   padding: 10px 20px;
@@ -333,18 +386,22 @@ body {
 .blog-post {
   margin-bottom: 60px;
 }
+
 .blog-post a{
-  color: #629632;
+  color: #50BF41;
   transition: color .2s ease;
 }
+
 .blog-post a:hover{
   text-decoration: none;
   color: #AED581;
 }
+
 .blog-post-title {
   margin-bottom: 5px;
   font-size: 40px;
 }
+
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
@@ -362,6 +419,7 @@ body {
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
 }
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }

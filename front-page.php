@@ -27,7 +27,7 @@
     <?php wp_head(); ?>
     <style media="screen">
       #landingContainer{
-        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'/img/showcase.jpg'); ?>);
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'/img/showcase.jpg'); ?>);
         height: 100vh;
         background-size: cover;
         background-attachment: fixed;
@@ -85,8 +85,11 @@
 
   <div id="landingContainer" class="container-fluid">
     <div class="jumbotron text-center">
+      <img src="<?php bloginfo('template_url'); ?>/img/blgHero.svg" alt="BeLocal Group Logo">
+      <!--
       <h1><span class="whiteBorder"><?php echo get_theme_mod('showcase_heading', 'BeLocal Group'); ?></span></h1>
       <h2><?php echo get_theme_mod('showcase_text', 'Listen Local. Leverage Global.'); ?></h2>
+    -->
     </div>
   </div>
 
