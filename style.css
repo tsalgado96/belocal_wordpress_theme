@@ -70,11 +70,16 @@ ul.navbar-nav {
 
 .navbar .navbar-nav {
     display: inline-block;
-    float: none;
+    /*float: none;*/
 }
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+.navbar .navbar-brand img {
+  height: 100%;
+  width: auto;
 }
 
 ul.nav a {

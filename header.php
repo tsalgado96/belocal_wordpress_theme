@@ -37,7 +37,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
+        <a class="navbar-brand" href="<?php echo home_url();?>"><img src="<?php bloginfo('template_url'); ?>/img/blgLogo.svg" alt="BeLocal Group Logo"></a>
       </div>
       <?php
             wp_nav_menu( array(
@@ -47,7 +47,7 @@
                 'container'         => 'div',
                 'container_class'   => 'collapse navbar-collapse',
                 'container_id'      => 'bs-example-navbar-collapse-1',
-                'menu_class'        => 'nav navbar-nav',
+                'menu_class'        => 'nav navbar-nav navbar-right',
                 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                 'walker'            => new WP_Bootstrap_Navwalker())
             );
