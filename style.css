@@ -120,12 +120,12 @@ footer p {
 .jumbotron {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #fff !important;
+  width: 700px;
 }
 
 .jumbotron img {
-  max-height: 275px;
-  height: auto;
   width: 100%;
+  height: auto;
 }
 
 /*What We're About */
