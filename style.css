@@ -230,7 +230,7 @@ footer p {
   margin-top: 90px;
 }
 
-#opportunities a {
+#opportunities .btn {
   background-color: transparent;
   border: 1px solid #fff;
   outline: none;
@@ -241,7 +241,7 @@ footer p {
   border-radius: 0;
 }
 
-#opportunities a:hover {
+#opportunities .btn:hover {
   background-color: #50BF41;
   border: 1px solid #50BF41;
   color: #fff;
@@ -578,4 +578,147 @@ body {
 .forgot-password:active,
 .forgot-password:focus{
     color: rgb(12, 97, 33);
+}
+
+/*
+*************************************
+*            About Page             *
+*************************************
+*/
+#aboutHeroImage {
+  background-image: url('img/RabenahyFranck11.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 550px;
+}
+
+.aboutOverlay {
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.aboutHero {
+  height: 100%;
+}
+
+.aboutHeroHeading {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 7em;
+  color: #ffffff;
+}
+@media screen and (max-width: 650px) {
+  .aboutHeroHeading {
+    font-size: 15vw;
+  }
+}
+
+/* Section Background Colors */
+.missionStatement {
+  width: 100%;
+  background: #50BF41;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+.programDev {
+  width: 100%;
+  background: #272727;
+  padding-top: 65px;
+  padding-bottom: 75px;
+}
+.belocalProcess {
+  width: 100%;
+  background: #1371d6;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+.aboutTheTeam {
+  width: 100%;
+  background: #e3dddd;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+/* End Section Background Colors */
+
+.aboutPage .btn {
+  background-color: transparent;
+  border: 1px solid #50BF41;
+  outline: none;
+  margin: 20px 0;
+  color: #50BF41;
+  width: 135px;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+
+.aboutPage .btn:hover {
+  background-color: #50BF41;
+  border: 1px solid #50BF41;
+  color: #fff;
+  width: 140px;
+}
+
+.aboutMainHeading {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 4em;
+  font-weight: 300;
+}
+@media screen and (max-width: 650px) {
+  .aboutMainHeading {
+    font-size: 10vw;
+  }
+}
+
+.aboutSubText {
+  color: #bebebe;
+  font-size: 1.8em;
+  font-weight: 300;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 35px;
+}
+
+.missionStatement .aboutSubText {
+  color: #dfdfdf;
+}
+
+.belocalProcess .aboutSubText {
+  color: #50BF41;
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.belocalProcess p {
+  font-weight: 300;
+  font-size: 1.3em;
+  max-width: 750px;
+  margin: 0 auto;
+  color: #cfcfcf;
+}
+
+.aboutTheTeam img {
+  max-width: 200px;
+}
+
+.aboutTheTeam .aboutMainHeading {
+  color: #787878;
+}
+
+.aboutTheTeam .aboutSubText {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #605f5f;
+}
+
+.aboutTheTeam .caption {
+  color: #787878;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 10px;
 }
