@@ -23,27 +23,106 @@
       Technology Officer of the Centre ValBio, Jesse McKinney, in the summer of 2016 to
       pilot the Process on Madagascar. The first Discover expedition was conducted in
       January of 2017 by a combined student and CVB team.</h3>
-    <a href="#" class="btn">Learn More</a>
+    <!--<a href="#" class="btn">Learn More</a>-->
   </div>
+
+
+  <!-- THE BELOCAL PROCESS MODALS -->
+
+  <!-- Discover -->
+  <div class="modal fade discoverModal" tabindex="-1" role="dialog" aria-labelledby="discoverModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content belocalProcess-modal">
+        <div class="modal-body text-center">
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
+          <h1>Discover</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Define -->
+  <div class="modal fade defineModal" tabindex="-1" role="dialog" aria-labelledby="defineModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content belocalProcess-modal">
+        <div class="modal-body text-center">
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
+          <h1>Define</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Innovate -->
+  <div class="modal fade innovateModal" tabindex="-1" role="dialog" aria-labelledby="innovateModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content belocalProcess-modal">
+        <div class="modal-body text-center">
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
+          <h1>Innovate</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pilot -->
+  <div class="modal fade pilotModal" tabindex="-1" role="dialog" aria-labelledby="pilotModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content belocalProcess-modal">
+        <div class="modal-body text-center">
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
+          <h1>Pilot</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Impact -->
+  <div class="modal fade impactModal" tabindex="-1" role="dialog" aria-labelledby="impactModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content belocalProcess-modal">
+        <div class="modal-body text-center">
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
+          <h1>Impact</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- END THE BELOCAL PROCESS MODALS -->
 
   <div class="belocalProcess container text-center">
     <h1 class="aboutMainHeading">The BeLocal Process</h1>
     <h3 class="aboutSubText">Discover</h3>
       <p>Engage directly with local population for insight and cultural context.</p>
       <p>Collect and annotate data-rich everyday life stories of the local population in video, audio and text.</p>
+      <span class="btn" data-toggle="modal" data-target=".discoverModal">Learn More</span>
     <h3 class="aboutSubText">Define</h3>
       <p>Crowd-source the identification of challenges described or observed in the collected data.</p>
       <p>Form problem statements that address the most compelling and greatest number of challenges.</p>
+      <span class="btn" data-toggle="modal" data-target=".defineModal">Learn More</span>
     <h3 class="aboutSubText">Innovate</h3>
       <p>Crowd-source solutions that fit the local situation and can be self-sustaining.</p>
       <p>Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
+      <span class="btn" data-toggle="modal" data-target=".innovateModal">Learn More</span>
     <h3 class="aboutSubText">Pilot</h3>
       <p>Test and refine solutions with the initial engaged population and beyond.</p>
       <p>Rank the solutions based on performance and degree of adoption.</p>
+      <span class="btn" data-toggle="modal" data-target=".pilotModal">Learn More</span>
     <h3 class="aboutSubText">Impact</h3>
       <p>Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population.</p>
       <p>Work with village resources to enable local manufacturing and production.</p>
-    <a href="#" class="btn">Learn More</a>
+      <span class="btn" data-toggle="modal" data-target=".impactModal">Learn More</span>
   </div>
 
   <!-- ABOUT THE TEAM MODALS -->
@@ -175,25 +254,25 @@
   <div class="aboutTheTeam container text-center">
     <h1 class="aboutMainHeading">Meet The Team</h1>
 
-      <h3 class="aboutSubText">BeLocal Group</h3>
+    <h3 class="aboutSubText">BeLocal Group</h3>
+    <div class="row">
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel" data-toggle="modal" data-target=".jeffNagelModal"><div class="caption" data-toggle="modal" data-target=".jeffNagelModal">Jeff Nagel</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel" data-toggle="modal" data-target=".mickieNagelModal"><div class="caption" data-toggle="modal" data-target=".mickieNagelModal">Mickie Nagel</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson" data-toggle="modal" data-target=".ericBergersonModal"><div class="caption" data-toggle="modal" data-target=".ericBergersonModal">Eric Bergerson</div></div>
+    </div>
+
+      <h3 class="aboutSubText">Stony Brook University</h3>
       <div class="row">
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel" data-toggle="modal" data-target=".jeffNagelModal"><div class="caption" data-toggle="modal" data-target=".jeffNagelModal">Jeff Nagel</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel" data-toggle="modal" data-target=".mickieNagelModal"><div class="caption" data-toggle="modal" data-target=".mickieNagelModal">Mickie Nagel</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson" data-toggle="modal" data-target=".ericBergersonModal"><div class="caption" data-toggle="modal" data-target=".ericBergersonModal">Eric Bergerson</div></div>
+        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright" data-toggle="modal" data-target=".patriciaWrightModal"><div class="caption" data-toggle="modal" data-target=".patriciaWrightModal">Patricia Wright</div></div>
+        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney" data-toggle="modal" data-target=".jesseMckinneyModal"><div class="caption" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</div></div>
       </div>
 
-        <h3 class="aboutSubText">Stony Brook University</h3>
-        <div class="row">
-          <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright" data-toggle="modal" data-target=".patriciaWrightModal"><div class="caption" data-toggle="modal" data-target=".patriciaWrightModal">Patricia Wright</div></div>
-          <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney" data-toggle="modal" data-target=".jesseMckinneyModal"><div class="caption" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</div></div>
-        </div>
-
-        <h3 class="aboutSubText">Advisory Council</h3>
-        <div class="row">
-          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small" data-toggle="modal" data-target=".peterSmallModal"><div class="caption" data-toggle="modal" data-target=".peterSmallModal">Peter Small</div></div>
-          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric" data-toggle="modal" data-target=".petarDjuricModal"><div class="caption" data-toggle="modal" data-target=".petarDjuricModal">Petar Djuric</div></div>
-          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption" data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
-        </div>
+      <h3 class="aboutSubText">Advisory Council</h3>
+      <div class="row">
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small" data-toggle="modal" data-target=".peterSmallModal"><div class="caption" data-toggle="modal" data-target=".peterSmallModal">Peter Small</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric" data-toggle="modal" data-target=".petarDjuricModal"><div class="caption" data-toggle="modal" data-target=".petarDjuricModal">Petar Djuric</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption" data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
+      </div>
 
   </div>
 

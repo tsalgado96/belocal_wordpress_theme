@@ -619,25 +619,25 @@ body {
 /* Section Background Colors */
 .missionStatement {
   width: 100%;
-  background: #50BF41;
+  background: #50BF41;/*Green*/
   padding-top: 50px;
   padding-bottom: 75px;
 }
 .programDev {
   width: 100%;
-  background: #272727;
+  background: #272727;/*Dark Gray*/
   padding-top: 65px;
   padding-bottom: 75px;
 }
 .belocalProcess {
   width: 100%;
-  background: #1371d6;
+  background: #1371d6;/*Blue*/
   padding-top: 50px;
   padding-bottom: 75px;
 }
 .aboutTheTeam {
   width: 100%;
-  background: #e3dddd;
+  background: #e3dddd;/*Light Gray*/
   padding-top: 50px;
   padding-bottom: 75px;
 }
@@ -647,7 +647,7 @@ body {
   background-color: transparent;
   border: 1px solid #50BF41;
   outline: none;
-  margin: 40px 0 20px 0;
+  margin: 10px 0 20px 0;
   color: #50BF41;
   width: 135px;
   transition: background-color 0.2s, border 0.2s, width 0.1s;
@@ -732,11 +732,15 @@ body {
 }
 
 /*About The Team Modal Styling*/
+.aboutPage .modal .modal-content .modal-body {
+  padding-bottom: 30px;
+}
 .aboutPage .modal .modal-content img{
   width: 100%;
   max-width: 350px;
   height: auto;
   border-radius: 50%;
+  margin-top: 20px;
 }
 .aboutPage .modal .modal-content i {
   position: absolute;
@@ -754,4 +758,22 @@ body {
   max-width: 650px;
   margin: 0 auto;
   line-height: 30px;
+}
+
+/*BeLocal Process Modal Styling*/
+.aboutPage .modal .belocalProcess-modal {
+  background-color: #272727;
+}
+.aboutPage .modal .belocalProcess-modal .modal-body h1 {
+  color: #50BF41;
+}
+.aboutPage .modal .belocalProcess-modal .modal-body p {
+  color: #ffffff;
+}
+.aboutPage .modal .belocalProcess-modal i {
+  color: #ffffff;
+}
+.aboutPage .modal .belocalProcess-modal i:hover {
+  cursor: pointer;
+  color: #50BF41;
 }
