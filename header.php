@@ -15,7 +15,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Main Stylsheet -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 

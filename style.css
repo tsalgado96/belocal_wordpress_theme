@@ -647,7 +647,7 @@ body {
   background-color: transparent;
   border: 1px solid #50BF41;
   outline: none;
-  margin: 20px 0;
+  margin: 40px 0 20px 0;
   color: #50BF41;
   width: 135px;
   transition: background-color 0.2s, border 0.2s, width 0.1s;
@@ -703,6 +703,7 @@ body {
 }
 
 .aboutTheTeam img {
+  width: 100%;
   max-width: 200px;
   max-height: 200px;
   border-radius: 50%;
@@ -724,4 +725,33 @@ body {
   font-weight: 500;
   font-size: 17px;
   margin-top: 10px;
+}
+
+.aboutTheTeam img:hover, .aboutTheTeam .caption:hover {
+  cursor: pointer;
+}
+
+/*About The Team Modal Styling*/
+.aboutPage .modal .modal-content img{
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 50%;
+}
+.aboutPage .modal .modal-content i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 40px;
+}
+.aboutPage .modal .modal-content .modal-body h1 {
+  color: #3d3d3d;
+  font-size: 3.7em;
+}
+.aboutPage .modal .modal-content .modal-body p{
+  color: #181818;
+  font-size: 1.2em;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 30px;
 }
