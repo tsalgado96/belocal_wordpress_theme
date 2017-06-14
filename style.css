@@ -683,7 +683,7 @@ body {
 }
 
 .missionStatement .aboutSubText {
-  color: #dfdfdf;
+  color: #ffffff;
 }
 
 .belocalProcess .aboutSubText {
@@ -696,8 +696,8 @@ body {
 
 .belocalProcess p {
   font-weight: 300;
-  font-size: 1.3em;
-  max-width: 750px;
+  font-size: 1.5em;
+  max-width: 800px;
   margin: 0 auto;
   color: #cfcfcf;
 }
@@ -776,4 +776,27 @@ body {
 .aboutPage .modal .belocalProcess-modal i:hover {
   cursor: pointer;
   color: #50BF41;
+}
+
+/*Program Development Modal Styling*/
+.aboutPage .modal .programDev-modal {
+  background-color: #50BF41;
+}
+.aboutPage .modal .programDev-modal .modal-body h1 {
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  .aboutPage .modal .programDev-modal .modal-body h1{
+    font-size: 10vw;
+  }
+}
+.aboutPage .modal .programDev-modal .modal-body p {
+  color: #ebebeb;
+}
+.aboutPage .modal .programDev-modal i {
+  color: #ffffff;
+}
+.aboutPage .modal .programDev-modal i:hover {
+  cursor: pointer;
+  color: #272727;
 }

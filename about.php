@@ -1,5 +1,6 @@
 <?php /* Template Name: About Page */ ?>
 <?php get_header(); ?>
+
 <div id="aboutHeroImage">
   <div class="container-fluid aboutOverlay">
     <div class="aboutHero">
@@ -9,6 +10,22 @@
 </div>
 
 <div class="aboutPage">
+<!-- ****** MODALS ******-->
+  <!-- PROGRAM DEVELOPMENT MODAL -->
+  <div class="modal fade programDevModal" tabindex="-1" role="dialog" aria-labelledby="programDevModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content programDev-modal">
+        <div class="modal-body text-center">
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
+          <h1>A Short History Lesson</h1><br>
+          <p>BeLocal Group started working with Dr. Wright and the Chief Technology Officer of the Centre ValBio, Jesse McKinney, in the summer of 2016 to pilot the Process on Madagascar.  The first Discover expedition was conducted in January of 2017 by a combined student and CVB team.  The data from that expedition is now being annotated and will be used as the initial training data set to develop more automated image search capabilities.  The second expedition is planned for April and the third for May of this year.  By July, we will have begun to define major challenge areas as well as initial problem formulations, in time for the start of Fall semester. </p><br>
+          <p>We have partnered with Stony Brook University to pilot our Process with their entire senior engineering class.  Every senior engineering student at Stony Brook University is required to do a full year project that requires researching, defining and innovating a solution to a true engineering problem.  Through this partnership the students will be able to innovate solutions to our challenges.  The top team will be funded to travel to Madagascar and work on the local pilot implementation of their innovations at the end of the school year in May 2018.</p><br>
+          <p>We are building relationships with organizations, like Acumen, who are motivated to invest in companies, leaders and ideas that are changing the way the world tackles poverty.  These companies can provide the leverage needed to insure that the BeLocal process can achieve self-sustaining impact by enabling local organizations to produce and distribute our solutions to their population.  By July of 2018, we will have piloted the BeLocal Process and expect to seek out philanthropic partnerships to expand BeLocal to other countries and universities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ****** END MODALS ****** -->
 
   <div class="missionStatement container text-center">
     <h1 class="aboutMainHeading">Mission Statement</h1>
@@ -23,7 +40,7 @@
       Technology Officer of the Centre ValBio, Jesse McKinney, in the summer of 2016 to
       pilot the Process on Madagascar. The first Discover expedition was conducted in
       January of 2017 by a combined student and CVB team.</h3>
-    <!--<a href="#" class="btn">Learn More</a>-->
+    <span class="btn" data-toggle="modal" data-target=".programDevModal">Our History</span>
   </div>
 
 
@@ -104,24 +121,19 @@
   <div class="belocalProcess container text-center">
     <h1 class="aboutMainHeading">The BeLocal Process</h1>
     <h3 class="aboutSubText">Discover</h3>
-      <p>Engage directly with local population for insight and cultural context.</p>
-      <p>Collect and annotate data-rich everyday life stories of the local population in video, audio and text.</p>
+      <p>Engage directly with local population for insight and cultural context. Collect and annotate data-rich everyday life stories of the local population in video, audio and text.</p>
       <span class="btn" data-toggle="modal" data-target=".discoverModal">Learn More</span>
     <h3 class="aboutSubText">Define</h3>
-      <p>Crowd-source the identification of challenges described or observed in the collected data.</p>
-      <p>Form problem statements that address the most compelling and greatest number of challenges.</p>
+      <p>Crowd-source the identification of challenges described or observed in the collected data. Form problem statements that address the most compelling and greatest number of challenges.</p>
       <span class="btn" data-toggle="modal" data-target=".defineModal">Learn More</span>
     <h3 class="aboutSubText">Innovate</h3>
-      <p>Crowd-source solutions that fit the local situation and can be self-sustaining.</p>
-      <p>Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
+      <p>Crowd-source solutions that fit the local situation and can be self-sustaining. Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
       <span class="btn" data-toggle="modal" data-target=".innovateModal">Learn More</span>
     <h3 class="aboutSubText">Pilot</h3>
-      <p>Test and refine solutions with the initial engaged population and beyond.</p>
-      <p>Rank the solutions based on performance and degree of adoption.</p>
+      <p>Test and refine solutions with the initial engaged population and beyond. Rank the solutions based on performance and degree of adoption.</p>
       <span class="btn" data-toggle="modal" data-target=".pilotModal">Learn More</span>
     <h3 class="aboutSubText">Impact</h3>
-      <p>Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population.</p>
-      <p>Work with village resources to enable local manufacturing and production.</p>
+      <p>Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population. Work with village resources to enable local manufacturing and production.</p>
       <span class="btn" data-toggle="modal" data-target=".impactModal">Learn More</span>
   </div>
 
