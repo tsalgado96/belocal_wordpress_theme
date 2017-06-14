@@ -51,22 +51,22 @@
 
       <h3 class="aboutSubText">BeLocal Group</h3>
       <div class="row">
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderMale.svg" alt="Jeff Nagel"><div class="caption">Jeff Nagel</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderFemale.svg" alt="Mickie Nagel"><div class="caption">Mickie Nagel</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderMale.svg" alt="Eric Bergerson"><div class="caption">Eric Bergerson</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel"><div class="caption">Jeff Nagel</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel"><div class="caption">Mickie Nagel</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson"><div class="caption">Eric Bergerson</div></div>
       </div>
 
         <h3 class="aboutSubText">Stony Brook University</h3>
         <div class="row">
-          <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderFemale.svg" alt="Patricia Wright"><div class="caption">Patricia Wright</div></div>
-          <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderMale.svg" alt="Jesse McKinney"><div class="caption">Jesse McKinney</div></div>
+          <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright"><div class="caption">Patricia Wright</div></div>
+          <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney"><div class="caption">Jesse McKinney</div></div>
         </div>
 
         <h3 class="aboutSubText">Advisory Council</h3>
         <div class="row">
-          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderMale.svg" alt="Peter Small"><div class="caption">Peter Small</div></div>
-          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderMale.svg" alt="Petar Djuric"><div class="caption">Petar Djuric</div></div>
-          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/personPlaceholderMale.svg" alt="Rob Kukta"><div class="caption">Rob Kukta</div></div>
+          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small"><div class="caption">Peter Small</div></div>
+          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric"><div class="caption">Petar Djuric</div></div>
+          <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta"><div class="caption">Rob Kukta</div></div>
         </div>
 
   </div>
