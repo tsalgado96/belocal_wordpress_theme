@@ -102,7 +102,7 @@
       <p>Local Engagement + Everyday Challenges + Crowd-sourced Innovation
         + Market Incentives</p>
       <h2>The Result</h2>
-      <p>Relevant, practical, and innovative solutions with build in market demand.</p>
+      <p>Relevant, practical, and innovative solutions with built in market demand.</p>
       <h2>How We Do It</h2>
       <p>We boast an interdisciplinary skillset, ranging from engineering and design
         to marketing and business.</p>
@@ -111,7 +111,7 @@
 
   <div id="initiativesHome" class="container-fluid content text-center">
     <h1>Current Initiative</h1>
-    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Community' ) ) ); ?>"><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span></a>
+    <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Community' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
   </div>
 
   <section id="process" class="container-fluid text-center">
@@ -127,11 +127,11 @@
       <p>Crowd-source solutions that fit the local situation and can be self-sustaining.
         Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
       <h2 style="color:#689F38">Pilot</h2>
-      <p>Test & refine solutions with the initial engaged population and beyond.
-        Rank the solutions based on performance and degree of adoption</p>
+      <p>Test and refine solutions with the initial engaged population and beyond.
+        Rank the solutions based on performance and degree of adoption.</p>
       <h2 style="color:#33691E">Impact</h2>
       <p>Achieve self-sustaining impact by allowing local entrepreneurs or any willing
-        organization to produce, market and distribute the solution to local population.
+        organization to produce, market, and distribute the solution to local population.
         Work with village resources to enable local manufacturing and production.</p>
     </div>
   </section>

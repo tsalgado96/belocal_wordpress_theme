@@ -791,7 +791,7 @@ body {
   }
 }
 .aboutPage .modal .programDev-modal .modal-body p {
-  color: #ebebeb;
+  color: #f4f4f4;
 }
 .aboutPage .modal .programDev-modal i {
   color: #ffffff;
@@ -799,4 +799,62 @@ body {
 .aboutPage .modal .programDev-modal i:hover {
   cursor: pointer;
   color: #272727;
+}
+
+/*
+*************************************
+*          Registration Page        *
+*************************************
+*/
+.registration-page-wrap {
+  background-color: #272727;
+  min-height: 100vh;
+  color: #ffffff;
+  padding-top: 100px;
+}
+
+.registration-page-wrap .container {
+  border: 1px dashed #dadada;
+  padding-bottom: 25px;
+}
+
+.registration-page-wrap .container .blog-header {
+  padding-top: 10px;
+}
+
+#buddypress .standard-form textarea,
+#buddypress .standard-form input[type=text],
+#buddypress .standard-form input[type=color],
+#buddypress .standard-form input[type=date],
+#buddypress .standard-form input[type=datetime],
+#buddypress .standard-form input[type=datetime-local],
+#buddypress .standard-form input[type=email],
+#buddypress .standard-form input[type=month],
+#buddypress .standard-form input[type=number],
+#buddypress .standard-form input[type=range],
+#buddypress .standard-form input[type=search],
+#buddypress .standard-form input[type=tel],
+#buddypress .standard-form input[type=time],
+#buddypress .standard-form input[type=url],
+#buddypress .standard-form input[type=week],
+#buddypress .standard-form select,
+#buddypress .standard-form input[type=password],
+#buddypress .dir-search input[type=search],
+#buddypress .dir-search input[type=text],
+#buddypress .groups-members-search input[type=search],
+#buddypress .groups-members-search input[type=text] {
+	border: 1px solid #cccccc !important;
+	background: none !important;
+	border-radius: 0;
+	color: #dadada !important;
+	font: inherit;
+	font-size: 100%;
+	padding: 6px;
+  margin-bottom: 10px;
+}
+
+#buddypress .standard-form #basic-details-section input[type=password],
+#buddypress .standard-form #basic-details-section input[type=email],
+#buddypress .standard-form #blog-details-section input#signup_blog_url {
+	width: 90% !important;
 }
