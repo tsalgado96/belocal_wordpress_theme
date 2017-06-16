@@ -617,19 +617,19 @@ body {
 }
 
 /* Section Background Colors */
-.missionStatement {
+.about-green-bg {
   width: 100%;
   background: #50BF41;/*Green*/
   padding-top: 50px;
   padding-bottom: 75px;
 }
-.programDev {
+.about-gray-bg {
   width: 100%;
   background: #272727;/*Dark Gray*/
   padding-top: 65px;
   padding-bottom: 75px;
 }
-.belocalProcess {
+.about-blue-bg {
   width: 100%;
   background: #1371d6;/*Blue*/
   padding-top: 50px;
@@ -637,7 +637,7 @@ body {
 }
 .aboutTheTeam {
   width: 100%;
-  background: #e3dddd;/*Light Gray*/
+  /*background: #e3dddd;*//*Light Gray*/
   padding-top: 50px;
   padding-bottom: 75px;
 }
@@ -647,7 +647,7 @@ body {
   background-color: transparent;
   border: 1px solid #50BF41;
   outline: none;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
   color: #50BF41;
   width: 135px;
   transition: background-color 0.2s, border 0.2s, width 0.1s;
@@ -658,6 +658,24 @@ body {
   background-color: #50BF41;
   border: 1px solid #50BF41;
   color: #fff;
+  width: 140px;
+}
+
+.aboutPage .about-green-bg .btn {
+  background-color: transparent;
+  border: 1px solid #272727;
+  outline: none;
+  margin: 10px 0 20px 0;
+  color: #272727;
+  width: 135px;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+
+.aboutPage .about-green-bg .btn:hover {
+  background-color: #272727;
+  border: 1px solid #272727;
+  color: #50BF41;
   width: 140px;
 }
 
@@ -682,11 +700,11 @@ body {
   line-height: 35px;
 }
 
-.missionStatement .aboutSubText {
+.about-green-bg .aboutSubText {
   color: #ffffff;
 }
 
-.belocalProcess .aboutSubText {
+.about-blue-bg .aboutSubText {
   color: #50BF41;
   font-size: 2.5em;
   margin-top: 30px;
@@ -694,12 +712,12 @@ body {
   font-weight: 500;
 }
 
-.belocalProcess p {
+.about-blue-bg p {
   font-weight: 300;
   font-size: 1.5em;
   max-width: 800px;
   margin: 0 auto;
-  color: #cfcfcf;
+  color: #f0f0f0;
 }
 
 .aboutTheTeam img {
@@ -760,43 +778,61 @@ body {
   line-height: 30px;
 }
 
-/*BeLocal Process Modal Styling*/
-.aboutPage .modal .belocalProcess-modal {
+/*Gray Background Modal Styling*/
+.aboutPage .modal .about-gray-bg-modal  {
   background-color: #272727;
 }
-.aboutPage .modal .belocalProcess-modal .modal-body h1 {
+.aboutPage .modal .about-gray-bg-modal  .modal-body h1 {
   color: #50BF41;
 }
-.aboutPage .modal .belocalProcess-modal .modal-body p {
+.aboutPage .modal .about-gray-bg-modal  .modal-body p {
   color: #ffffff;
 }
-.aboutPage .modal .belocalProcess-modal i {
+.aboutPage .modal .about-gray-bg-modal  i {
   color: #ffffff;
 }
-.aboutPage .modal .belocalProcess-modal i:hover {
+.aboutPage .modal .about-gray-bg-modal  i:hover {
   cursor: pointer;
   color: #50BF41;
 }
 
-/*Program Development Modal Styling*/
-.aboutPage .modal .programDev-modal {
-  background-color: #50BF41;
+/*Blue Background Modal Styling*/
+.aboutPage .modal .about-blue-bg-modal  {
+  background-color: #1371d6;
 }
-.aboutPage .modal .programDev-modal .modal-body h1 {
+.aboutPage .modal .about-blue-bg-modal  .modal-body h1 {
+  color: #50BF41;
+}
+.aboutPage .modal .about-blue-bg-modal  .modal-body p {
   color: #ffffff;
 }
+.aboutPage .modal .about-blue-bg-modal  i {
+  color: #ffffff;
+}
+.aboutPage .modal .about-blue-bg-modal  i:hover {
+  cursor: pointer;
+  color: #50BF41;
+}
+
+/*Green Background Modal Styling*/
+.aboutPage .modal .about-green-bg-modal {
+  background-color: #50BF41;
+}
+.aboutPage .modal .about-green-bg-modal .modal-body h1 {
+  color: #272727;
+}
 @media screen and (max-width: 600px) {
-  .aboutPage .modal .programDev-modal .modal-body h1{
+  .aboutPage .modal .about-green-bg-modal .modal-body h1{
     font-size: 10vw;
   }
 }
-.aboutPage .modal .programDev-modal .modal-body p {
+.aboutPage .modal .about-green-bg-modal .modal-body p {
   color: #f4f4f4;
 }
-.aboutPage .modal .programDev-modal i {
+.aboutPage .modal .about-green-bg-modal i {
   color: #ffffff;
 }
-.aboutPage .modal .programDev-modal i:hover {
+.aboutPage .modal .about-green-bg-modal i:hover {
   cursor: pointer;
   color: #272727;
 }
@@ -811,6 +847,7 @@ body {
   min-height: 100vh;
   color: #ffffff;
   padding-top: 100px;
+  padding-bottom: 75px;
 }
 
 .registration-page-wrap .container {
