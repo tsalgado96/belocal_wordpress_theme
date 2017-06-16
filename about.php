@@ -353,6 +353,11 @@
         <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
       </div>
 
+      <h3 class="aboutSubText">Contributors</h3>
+      <div class="row">
+        <div class="col-sm-12"><div class="caption"><a href="http://tjsalgado.com" target="_blank">TJ Salgado &mdash; Web Design</a></div></div>
+      </div>
+
   </div>
 
 </div><!--./aboutPage -->

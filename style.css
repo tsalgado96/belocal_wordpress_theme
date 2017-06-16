@@ -47,6 +47,7 @@ Tags: belocal
   5.4 Text Colors and Sizes
   5.5 Buttons
   5.6 Modal Styling
+  5.7 Contributions
 6.0 BuddyPress Registration Override Styles
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -156,12 +157,37 @@ ul.nav a:hover {
 1.5 - Footer
 --------------------------------------------------------------*/
 footer {
-  height: 100px;
-  padding-top: 40px;
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer a {
+  color: #50BF41;
+}
+footer a:hover,
+footer a:focus {
+  color: #1371d6;
+  text-decoration: none;
 }
 
 footer p {
-  margin: 0 auto;
+  display: block;
+  margin: 0;
+}
+
+footer h5 {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+footer .footer-nav .menu-footer-navigation{
+  list-style: none;
+}
+
+footer .footer-nav .menu-footer-navigation li {
+  display: inline-block;
 }
 /*--------------------------------------------------------------
 2 - Front Landing Page
@@ -636,6 +662,10 @@ body {
 /*--------------------------------------------------------------
 5.2 - Meet The Team
 --------------------------------------------------------------*/
+.aboutTheTeam {
+  padding-bottom: 35px;
+}
+
 .aboutTheTeam img {
   width: 100%;
   max-width: 200px;
@@ -711,6 +741,15 @@ body {
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 2.3em;
+}
+
+.aboutPage .aboutTheTeam a {
+  color: #414141;
+}
+.aboutPage .aboutTheTeam a:hover,
+.aboutPage .aboutTheTeam a:focus {
+  color: #1371d6;
+  text-decoration: none;
 }
 /*--------------------------------------------------------------
 5.5 - Buttons

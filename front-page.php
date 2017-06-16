@@ -111,7 +111,7 @@
 
   <div id="initiativesHome" class="container-fluid content text-center">
     <h1>Current Initiative</h1>
-    <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Community' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
+    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>"><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span></a>
   </div>
 
   <section id="process" class="container-fluid text-center">
