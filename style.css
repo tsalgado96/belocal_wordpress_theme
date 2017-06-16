@@ -22,6 +22,14 @@ body, html {
   height: 100%;
 }
 
+.blue {
+  color: #1371d6;
+}
+
+.green {
+  color: #50BF41;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -643,6 +651,7 @@ body {
 }
 /* End Section Background Colors */
 
+/*
 .aboutPage .btn {
   background-color: transparent;
   border: 1px solid #50BF41;
@@ -719,6 +728,7 @@ body {
   margin: 0 auto;
   color: #f0f0f0;
 }
+*/
 
 .aboutTheTeam img {
   width: 100%;
@@ -750,6 +760,7 @@ body {
 }
 
 /*About The Team Modal Styling*/
+/*
 .aboutPage .modal .modal-content .modal-body {
   padding-bottom: 30px;
 }
@@ -777,6 +788,7 @@ body {
   margin: 0 auto;
   line-height: 30px;
 }
+*/
 
 /*Gray Background Modal Styling*/
 .aboutPage .modal .about-gray-bg-modal  {
@@ -836,6 +848,184 @@ body {
   cursor: pointer;
   color: #272727;
 }
+
+
+
+
+
+/* About Page Alternating Background Colors */
+.aboutPage .about-white-bg {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 65px;
+  padding-bottom: 75px;
+}
+
+.aboutPage .about-offwhite-bg {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-top: 65px;
+  padding-bottom: 75px;
+}
+
+/* About Page Text Colors and Sizes*/
+.aboutPage .aboutMainHeading {
+  text-transform: uppercase;
+  color: #414141;
+  font-size: 4em;
+  font-weight: 300;
+}
+@media screen and (max-width: 650px) {
+  .aboutMainHeading {
+    font-size: 10vw;
+  }
+}
+
+.aboutPage .aboutSubText {
+  color: #606060;
+  font-size: 1.8em;
+  font-weight: 300;
+  max-width: 750px;
+  margin: 10px auto;
+  line-height: 35px;
+}
+
+.aboutPage .process-heading {
+  font-size: 2.5em;
+  margin-top: 60px;
+  font-weight: 500;
+}
+
+.aboutPage .process-text {
+  font-weight: 300;
+  font-size: 1.5em;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #606060;
+}
+
+.aboutPage .aboutTheTeam .aboutSubText {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 2.3em;
+}
+
+/* About Page Buttons */
+.aboutPage .green-btn {
+  background-color: transparent;
+  border: 1px solid #50BF41;
+  outline: none;
+  margin: 10px 0 10px 0;
+  color: #50BF41;
+  width: 135px;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+
+.aboutPage .green-btn:hover {
+  background-color: #50BF41;
+  border: 1px solid #50BF41;
+  color: #fff;
+  width: 140px;
+}
+
+.aboutPage .blue-btn {
+  background-color: transparent;
+  border: 1px solid #1371d6;
+  outline: none;
+  margin: 10px 0 10px 0;
+  color: #1371d6;
+  width: 135px;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+
+.aboutPage .blue-btn:hover {
+  background-color: #1371d6;
+  border: 1px solid #1371d6;
+  color: #fff;
+  width: 140px;
+}
+
+.aboutPage .gray-btn {
+  background-color: transparent;
+  border: 1px solid #272727;
+  outline: none;
+  margin: 10px 0 10px 0;
+  color: #272727;
+  width: 135px;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+
+.aboutPage .gray-btn:hover {
+  background-color: #272727;
+  border: 1px solid #272727;
+  color: #fff;
+  width: 140px;
+}
+
+/* Modal Styling */
+.aboutPage .modal .modal-content .modal-body {
+  padding-bottom: 30px;
+}
+.aboutPage .modal .modal-content img{
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.aboutPage .modal .modal-content i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 40px;
+}
+.aboutPage .modal .modal-content .modal-body h1 {
+  color: #3d3d3d;
+  font-size: 3.7em;
+}
+.aboutPage .modal .modal-content .modal-body p{
+  color: #181818;
+  font-size: 1.2em;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.aboutPage .modal i {
+  color: #272727;
+}
+.aboutPage .modal i:hover {
+  cursor: pointer;
+  color: #50BF41;
+}
+
+.aboutPage .modal .modal-body h1 {
+  color: #414141;
+}
+
+.aboutPage .modal .modal-body p {
+  color: #606060;
+}
+
+.aboutPage .modal .about-white-bg-modal  {
+  background-color: #ffffff;
+}
+
+.aboutPage .modal .about-offwhite-bg-modal  {
+  background-color: #ebebeb;
+}
+
+
+
+
+
+
+
+
+
 
 /*
 *************************************

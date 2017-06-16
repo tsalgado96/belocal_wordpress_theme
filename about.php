@@ -13,26 +13,26 @@
 
 <!-- ****** MODALS ****** -->
 
-  <!-- CONVENTIONAL THERAPY MODAL -->
+  <!-- CONVENTIONAL PHILANTHROPY MODAL -->
   <div class="modal fade conventPhilanModal" tabindex="-1" role="dialog" aria-labelledby="conventPhilanModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-gray-bg-modal">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>Conventional Philanthropy</h1>
-          <p>Philanthropic methods have evolved over time to address a range of needs and increase effectiveness.  Direct contributions of goods and services are effective in serving immediate needs but are not self-sustaining and frequently have unintended side effects in removing agency.  Contributions of enabling resources and training can address an important range of needs for larger scale infrastructure (eg hospitals) and specialized expertise (eg agricultural techniques) but are again not self-sustaining and can suffer some of the same issues around agency.  More recent efforts aim at Impact Investing by leveraging market-based models to enable local economic growth, such as micro-lending (Grameen Bank) and patient venture capital (Acumen).This final path has the ultimate advantage of self-sufficiency but is limited by the pace with which good local entrepreneurs can be developed and impactful solutions with a high probability of successful adoption can be identified. The BeLocal Process adds value by providing a pipeline of solutions, sourced and validated by the local population, insuring high adoption and sustainable impact. This pipeline of solutions is filled by leveraging a global crowd-sourced process of reproducible innovation to challenges discovered and tested in partnership with the local population being served.
+          <p>Philanthropic methods have evolved over time to address a range of needs and increase effectiveness.  Direct contributions of goods and services are effective in serving immediate needs but are not self-sustaining and frequently have unintended side effects in removing agency.  Contributions of enabling resources and training can address an important range of needs for larger scale infrastructure (eg hospitals) and specialized expertise (eg agricultural techniques) but are again not self-sustaining and can suffer some of the same issues around agency.  More recent efforts aim at Impact Investing by leveraging market-based models to enable local economic growth, such as micro-lending (Grameen Bank) and patient venture capital (Acumen). This final path has the ultimate advantage of self-sufficiency but is limited by the pace with which good local entrepreneurs can be developed and impactful solutions with a high probability of successful adoption can be identified. The BeLocal Process adds value by providing a pipeline of solutions, sourced and validated by the local population, insuring high adoption and sustainable impact. This pipeline of solutions is filled by leveraging a global crowd-sourced process of reproducible innovation to challenges discovered and tested in partnership with the local population being served.
           </p>
         </div>
       </div>
     </div>
   </div>
-  <!-- END CONVENTIONAL THERAPY MODAL -->
+  <!-- END CONVENTIONAL PHILANTHROPY MODAL -->
 
 
   <!-- THE BELOCAL DIFFERENCE MODAL -->
   <div class="modal fade belocalDiffModal" tabindex="-1" role="dialog" aria-labelledby="belocalDiffModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-green-bg-modal">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>The BeLocal Difference</h1>
@@ -49,7 +49,7 @@
   <!-- Discover -->
   <div class="modal fade discoverModal" tabindex="-1" role="dialog" aria-labelledby="discoverModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-blue-bg-modal ">
+      <div class="modal-content about-offwhite-bg-modal ">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>Discover</h1>
@@ -68,7 +68,7 @@
   <!-- Define -->
   <div class="modal fade defineModal" tabindex="-1" role="dialog" aria-labelledby="defineModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-blue-bg-modal ">
+      <div class="modal-content about-offwhite-bg-modal ">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>Define</h1>
@@ -93,7 +93,7 @@
   <!-- Innovate -->
   <div class="modal fade innovateModal" tabindex="-1" role="dialog" aria-labelledby="innovateModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-blue-bg-modal ">
+      <div class="modal-content about-offwhite-bg-modal ">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>Innovate</h1>
@@ -110,7 +110,7 @@
   <!-- Pilot -->
   <div class="modal fade pilotModal" tabindex="-1" role="dialog" aria-labelledby="pilotModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-blue-bg-modal ">
+      <div class="modal-content about-offwhite-bg-modal ">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>Pilot</h1>
@@ -128,7 +128,7 @@
   <!-- Impact -->
   <div class="modal fade impactModal" tabindex="-1" role="dialog" aria-labelledby="impactModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-blue-bg-modal ">
+      <div class="modal-content about-offwhite-bg-modal ">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>Impact</h1>
@@ -144,7 +144,7 @@
   <!-- PROGRAM DEVELOPMENT MODAL -->
   <div class="modal fade programDevModal" tabindex="-1" role="dialog" aria-labelledby="programDevModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-gray-bg-modal">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <h1>A Short History Lesson</h1><br>
@@ -162,9 +162,9 @@
   <!-- Jeff Nagel -->
   <div class="modal fade jeffNagelModal" tabindex="-1" role="dialog" aria-labelledby="jeffNagelModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel">
           <h1>Jeff Nagel</h1>
           <p>Jeff joined AEA in 2015 as an Operating Partner. He is primarily focused on working with portfolio companies to maximize value creation through improved operating performance and cross-portfolio best practice development. He also works with AEA’s Risk Committee on the implementation of its ESG initiative. Jeff currently serves on the board of Generation Brands, LoneStar, Pro Mach and Sparrows and TricorBraun.</p>
@@ -178,9 +178,9 @@
   <!-- Mickie Nagel -->
   <div class="modal fade mickieNagelModal" tabindex="-1" role="dialog" aria-labelledby="mickieNagelModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel">
           <h1>Mickie Nagel</h1>
           <p>Mickie Nagel has over 25 years of experience in advertising, marketing, public relations, and community development.  She spent the first half of her career in marketing for super-regional shopping malls where she was responsible for developing strategic marketing plans, advertising campaigns, public relations and special events.  As part of her work, she designed and conducted events that delivered up to 100,000 people.  Her campaigns won multiple industry awards for creative excellence.  She subsequently worked for Hewlett Packard (Compaq Computer) running large scale B2B marketing events.  The second half of her career has been spent raising four children while living in Europe for seven years.  During this period, she travelled extensively and took leadership roles in charitable works and community events.  Currently, she continues her work in marketing, advertising and special events for both business and not-for-profit companies.   She has a Bachelor’s Degree in Business with a Marketing Major from Davenport University (DCB).
@@ -193,9 +193,9 @@
   <!-- Eric Bergerson -->
   <div class="modal fade ericBergersonModal" tabindex="-1" role="dialog" aria-labelledby="ericBergersonModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson">
           <h1>Eric Bergerson</h1>
           <p>Eric is the Director of Research at TickerTags.com, a financial technology company focused on discovering market insights before they become news by monitoring the social web in real-time, and aligning the conversations in social media with investable assets.  Before joining TickerTags, he was a senior engineering director at Vendavo responsible for the analytic team leveraging big data technology to provide actionable insights to enable business to sell more profitably.  Eric is a hard-core coder and an experienced manager, applying his experience in software development, machine learning and data science to problems for Financial Services, Healthcare, Entertainment and Market Research.  He has been a founder in three companies and holds both a B.S.E.E. from Carnegie Mellon University (1986) and an M.S.E.E. from the University of Rhode Island (1988).
@@ -208,9 +208,9 @@
   <!-- Patricia Wright -->
   <div class="modal fade patriciaWrightModal" tabindex="-1" role="dialog" aria-labelledby="patriciaWrightModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright">
           <h1>Patricia Wright</h1>
           <p>Dr. Wright is a Distinguished Service Professor in the Department of Anthropology at the State University of New York at Stony Brook. Dr. Wright has served as the Executive Director for the Institute for the Conservation of Tropical Environments (ICTE) since 1992 and founded the Centre ValBio Research station in Madagascar in 2002. She has studied behavioral ecology of non-human primates in South America, Asia and Madagascar. Her research interests include primate behavior and ecology, female dominance, male parenting, the evolution of tropical biodiversity, biodiversity conservation, climate change in the tropics and conservation genetics.  Patricia is a Fellow of the John D. and Catherine T. MacArthur Foundation, the American Association for the Advancement of Sciences and has won numerous awards and medals including the “Nobel Prize” in conservation, the Indianapolis Prize for Animal Conservation.  She has authored or co-authored many books including her own two volume autobiography and published over a hundred and fifty scientific papers.  Her work has been featured in documentaries and TV shows, most recently in CNN’s “Parts Unknown” and ABC Nightline news.
@@ -223,9 +223,9 @@
   <!-- Jesse McKinney -->
   <div class="modal fade jesseMckinneyModal" tabindex="-1" role="dialog" aria-labelledby="jesseMckinneyModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney">
           <h1>Jesse McKinney</h1>
           <p>Jesse McKinney, a trained designer, is currently serving as the Chief Technology Officer of Centre ValBio. He has for the last five years lived and worked in rural Madagascar advising and implementing technology forward initiatives for health and scientific research. Prior to his current position, Jesse served in the United States Peace Corps Madagascar as an Internet and Communication Technology Volunteer. Before working in Madagascar, Jesse had a professional career as an Industrial and Digital Designer, where he held positions at a number of engineering facilities and design firms throughout the USA. In addition to his experience as a designer, Jesse has significant professional experience in robotic systems integration, movement and perception centric industrial automation engineering, and software development. Jesse’s current research interest is in novel applications of low cost distributed sensor networks for ecosystems scale data capture and processing. Jesse holds a BS in Digital Design from the College of DAAP @ the University of Cincinnati.
@@ -238,9 +238,9 @@
   <!-- Peter Small -->
   <div class="modal fade peterSmallModal" tabindex="-1" role="dialog" aria-labelledby="peterSmallModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small">
           <h1>Peter Small</h1>
           <p>Dr. Small is the Founding Director of the Stony Brook University Global Health Institute, a highly collaborative, transdisciplinary campus based program that includes teaching, research and service with a mission to reduce poverty, ecological devastation and disease in Madagascar and other poor countries.
@@ -254,9 +254,9 @@
   <!-- Petar Djuric -->
   <div class="modal fade petarDjuricModal" tabindex="-1" role="dialog" aria-labelledby="petarDjuricModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric">
           <h1>Petar Djuric</h1>
           <p>Petar M. Djurić received a B.S. and M.S. degrees in electrical engineering from the University of Belgrade, Belgrade, Yugoslavia, respectively, and a Ph.D. degree in electrical engineering from the University of Rhode Island, Kingston, RI, USA. He is currently a Professor and Chair of the Department of Electrical and Computer Engineering, Stony Brook University, Stony Brook, NY, USA. His research has been in the area of signal and information processing with primary interests in the theory of signal modeling, detection, and estimation; Monte Carlo-based methods; signal and information processing over networks; machine learning, RFID and the IoT. He has been invited to lecture at many universities in the United States and overseas. Prof. Djurić was a recipient of the IEEE Signal Processing Magazine Best Paper Award in 2007 and the EURASIP Technical Achievement Award in 2012. In 2008, he was the Chair of Excellence of Universidad Carlos III de Madrid-Banco de Santander. From 2008 to 2009, he was a Distinguished Lecturer of the IEEE Signal Processing Society. He has been on numerous committees of the IEEE Signal Processing Society and of many professional conferences and workshops. He is the Editor-in-Chief of the IEEE Transactions on Signal and Information Processing over Networks. Prof. Djurić is a Fellow of IEEE and EURASIP.
@@ -269,9 +269,9 @@
   <!-- Rob Kukta -->
   <div class="modal fade robKuktaModal" tabindex="-1" role="dialog" aria-labelledby="robKuktaModal">
     <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
+      <div class="modal-content about-offwhite-bg-modal">
         <div class="modal-body text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta">
           <h1>Rob Kukta</h1>
           <p>Robert Kukta is the Associate Dean for Undergraduate Programs in the College of Engineering and Applied Sciences at Stony Brook University.  He joined Stony Brook in 1999 as a faculty member of the Department of Mechanical Engineering, after serving as a Postdoctoral Scholar of Applied Mechanics at Caltech.  He earned his PhD in Engineering (1998) from Brown University. His research is in solid mechanics, involving the mathematical modeling and simulation of microstructural evolution.  He is best known for his work on the dynamics of dislocations and the mechanics of steps on vicinal surfaces of crystals.  He received an NSF CAREER award for this work.  Recently, Robert’s focus has shifted towards education and diversity.  Prior to becoming Associate Dean, he successively served as Graduate Program Director and then Undergraduate Program Director for the Department of Mechanical Engineering.  In Mechanical Engineering, he advanced successful initiatives to grow the Master’s program, improve undergraduate academic advising, and increase graduation rates.  He is currently working on College initiatives on experiential learning, engineering innovation and entrepreneurship, industry-based senior design projects, broadening participation of women in engineering, and global engineering with a new engineering summer field school in off-grid Africa.
@@ -284,53 +284,53 @@
 
 <!-- ****** END MODALS ****** -->
 
-  <div class="about-green-bg container text-center">
+  <div class="about-offwhite-bg container text-center">
     <h1 class="aboutMainHeading">Mission Statement</h1>
-    <h3 class="aboutSubText">We at BeLocal believe that great innovation starts with empathy for the people we serve.  Our process begins and ends with their input because our success is measured by their voluntary adoption of innovations that improve their lives.  We believe that agency matters and makes for the best long term changes.  BeLocal is ultimately about empowering people to make their own lives better.</h3>
+    <h3 class="aboutSubText">We, at BeLocal, believe that great innovation starts with empathy for the people we serve.  Our process begins and ends with their input because our success is measured by their voluntary adoption of innovations that improve their lives.  We believe that agency matters and makes for the best long term changes.  BeLocal is ultimately about empowering people to make their own lives better.</h3>
     <!--<span class="btn" data-toggle="modal" data-target=".programDevModal">See More</span>-->
   </div>
 
-  <div class="about-gray-bg container text-center">
+  <div style="border-top: 3px solid #1371d6;" class="about-white-bg container text-center">
     <h1 class="aboutMainHeading">Conventional Philanthropy</h1>
     <h3 class="aboutSubText">Philanthropic methods have evolved over time to address a range of needs and increase effectiveness.  Direct contributions of goods and services are effective in serving immediate needs but are not self-sustaining and frequently have unintended side effects in removing agency.  Contributions of enabling resources and training can address an important range of needs for larger scale infrastructure (eg hospitals) and specialized expertise (eg agricultural techniques) but are again not self-sustaining and can suffer some of the same issues around agency.</h3>
-    <span class="btn" data-toggle="modal" data-target=".conventPhilanModal">Read More</span>
+    <span class="btn blue-btn" data-toggle="modal" data-target=".conventPhilanModal">Read More</span>
   </div>
 
-  <div class="about-green-bg container text-center">
+  <div style="border-top: 3px solid #1371d6;" class="about-offwhite-bg container text-center">
     <h1 class="aboutMainHeading">The BeLocal Difference</h1>
     <h3 class="aboutSubText">BeLocal leverages four differentiated elements to achieve Impact.  The first and most important element is a focus on deep local data gathering. <i>Listen local</i>.  So often, well intentioned foreigners create solutions that are unworkable, cause collateral problems, or are not maintainable over time.  Effective problem solving requires deep context.</h3>
-    <span class="btn" data-toggle="modal" data-target=".belocalDiffModal">Read More</span>
+    <span class="btn blue-btn" data-toggle="modal" data-target=".belocalDiffModal">Read More</span>
   </div>
 
-  <div class="about-blue-bg container text-center">
+  <div style="border-top: 3px solid #50BF41; border-bottom: 3px solid #50BF41;" class="about-white-bg container text-center">
     <h1 class="aboutMainHeading">The BeLocal Process</h1>
-    <h3 class="aboutSubText">Discover</h3>
-      <p>Engage directly with local population for insight and cultural context. Collect and annotate data-rich everyday life stories of the local population in video, audio and text.</p>
-      <span class="btn" data-toggle="modal" data-target=".discoverModal">Learn More</span>
-    <h3 class="aboutSubText">Define</h3>
-      <p>Crowd-source the identification of challenges described or observed in the collected data. Form problem statements that address the most compelling and greatest number of challenges.</p>
-      <span class="btn" data-toggle="modal" data-target=".defineModal">Learn More</span>
-    <h3 class="aboutSubText">Innovate</h3>
-      <p>Crowd-source solutions that fit the local situation and can be self-sustaining. Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
-      <span class="btn" data-toggle="modal" data-target=".innovateModal">Learn More</span>
-    <h3 class="aboutSubText">Pilot</h3>
-      <p>Test and refine solutions with the initial engaged population and beyond. Rank the solutions based on performance and degree of adoption.</p>
-      <span class="btn" data-toggle="modal" data-target=".pilotModal">Learn More</span>
-    <h3 class="aboutSubText">Impact</h3>
-      <p>Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population. Work with village resources to enable local manufacturing and production.</p>
-      <span class="btn" data-toggle="modal" data-target=".impactModal">Learn More</span>
+    <h3 style="color:#C5E1A5" class="aboutSubText process-heading">Discover</h3>
+      <p class="process-text">Engage directly with local population for insight and cultural context. Collect and annotate data-rich everyday life stories of the local population in video, audio and text.</p>
+      <span class="btn green-btn" data-toggle="modal" data-target=".discoverModal">Learn More</span>
+    <h3 style="color:#AED581" class="aboutSubText process-heading">Define</h3>
+      <p class="process-text">Crowd-source the identification of challenges described or observed in the collected data. Form problem statements that address the most compelling and greatest number of challenges.</p>
+      <span class="btn green-btn" data-toggle="modal" data-target=".defineModal">Learn More</span>
+    <h3 style="color:#8BC34A" class="aboutSubText process-heading">Innovate</h3>
+      <p class="process-text">Crowd-source solutions that fit the local situation and can be self-sustaining. Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
+      <span class="btn green-btn" data-toggle="modal" data-target=".innovateModal">Learn More</span>
+    <h3 style="color:#689F38" class="aboutSubText process-heading">Pilot</h3>
+      <p class="process-text">Test and refine solutions with the initial engaged population and beyond. Rank the solutions based on performance and degree of adoption.</p>
+      <span class="btn green-btn" data-toggle="modal" data-target=".pilotModal">Learn More</span>
+    <h3 style="color:#33691E" class="aboutSubText process-heading">Impact</h3>
+      <p class="process-text">Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population. Work with village resources to enable local manufacturing and production.</p>
+      <span class="btn green-btn" data-toggle="modal" data-target=".impactModal">Learn More</span>
   </div>
 
-  <div class="about-gray-bg container text-center">
+  <div class="about-offwhite-bg container text-center">
     <h1 class="aboutMainHeading">Program Development</h1>
     <h3 class="aboutSubText">BeLocal Group started working with Dr. Wright and the Chief
       Technology Officer of the Centre ValBio, Jesse McKinney, in the summer of 2016 to
       pilot the Process on Madagascar. The first Discover expedition was conducted in
       January of 2017 by a combined student and CVB team.</h3>
-    <span class="btn" data-toggle="modal" data-target=".programDevModal">Our History</span>
+    <span class="btn green-btn" data-toggle="modal" data-target=".programDevModal">Our History</span>
   </div>
 
-  <div class="aboutTheTeam container text-center">
+  <div style="border-top: 3px solid #50BF41;" class="aboutTheTeam container text-center">
     <h1 class="aboutMainHeading">Meet The Team</h1>
 
     <h3 class="aboutSubText">BeLocal Group</h3>
