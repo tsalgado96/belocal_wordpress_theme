@@ -10,18 +10,59 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: belocal
 */
 
-/*Original Green: #629632*/
-
-/*
-*************************************
-*           GLOBAL STYLING          *
-*************************************
-*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Global Styling
+  1.1 BeLocal Main Colors
+  1.2 Bootstrap Overrides
+  1.3 Containers
+  1.4 Navigation Bar
+  1.5 Footer
+2.0 Front Landing Page
+  2.1 Jumbotron
+  2.2 Our Work
+  2.3 Initiatives
+  2.4 BeLocal Process
+  2.5 Opportunities
+3.0 Main Blog Posts
+  3.1 Blog Posts Global
+  3.2 Blog Posts Navbar Masthead
+  3.3 Nav Links
+  3.4 Active State Carets
+  3.5 Blog Name and Description
+  3.6 Main Column and Sidebar Layout
+  3.7 Sidebar Modules For Boxing Content
+  3.8 Pagination
+  3.9 Blog Posts
+  3.10 Blog Footer
+4.0 Login Template
+  4.1 General Styles
+  4.2 Card Component
+  4.3 Form Styles
+5.0 About Us Page
+  5.1 Landing Hero
+  5.2 Meet The Team
+  5.3 Section Background Colors
+  5.4 Text Colors and Sizes
+  5.5 Buttons
+  5.6 Modal Styling
+6.0 BuddyPress Registration Override Styles
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1 - Global Styling
+--------------------------------------------------------------*/
 body, html {
   font-family: "Raleway", sans-serif !important;
   height: 100%;
 }
-
+.whiteBorder {
+  border: 2px solid #d0d0d0;
+  padding: 10px;
+}
+/*--------------------------------------------------------------
+1.1 - BeLocal Main Colors
+--------------------------------------------------------------*/
 .blue {
   color: #1371d6;
 }
@@ -29,7 +70,9 @@ body, html {
 .green {
   color: #50BF41;
 }
-
+/*--------------------------------------------------------------
+1.2 - Bootstrap Overrides
+--------------------------------------------------------------*/
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -55,8 +98,9 @@ body, html {
 .sidebar-module a {
   color: #50BF41;
 }
-
-/*Content Containers */
+/*--------------------------------------------------------------
+1.3 - Containers
+--------------------------------------------------------------*/
 .content {
   height: 70vh;
   background-color: #eeeeee;
@@ -67,7 +111,14 @@ body, html {
   margin: 0 auto;
 }
 
-/*Navbar */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+/*--------------------------------------------------------------
+1.4 - Navigation Bar
+--------------------------------------------------------------*/
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.9) !important;
   border: none !important;
@@ -78,12 +129,11 @@ ul.navbar-nav {
 }
 
 .navbar .navbar-nav {
-    display: inline-block;
-    /*float: none;*/
+  display: inline-block;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar .navbar-brand {
@@ -102,13 +152,9 @@ ul.nav a {
 ul.nav a:hover {
   color: #50BF41 !important;
 }
-
-.whiteBorder {
-  border: 2px solid #d0d0d0;
-  padding: 10px;
-}
-
-/*Footer */
+/*--------------------------------------------------------------
+1.5 - Footer
+--------------------------------------------------------------*/
 footer {
   height: 100px;
   padding-top: 40px;
@@ -117,14 +163,12 @@ footer {
 footer p {
   margin: 0 auto;
 }
-
-/*
-*************************************
-*           Landing Page            *
-*************************************
-*/
-
-/*Home Page Jumbotron */
+/*--------------------------------------------------------------
+2 - Front Landing Page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.1 - Jumbotron
+--------------------------------------------------------------*/
 .jumbotron {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #fff !important;
@@ -135,8 +179,9 @@ footer p {
   width: 100%;
   height: auto;
 }
-
-/*What We're About */
+/*--------------------------------------------------------------
+2.2 - Our Work
+--------------------------------------------------------------*/
 #work {
   padding-bottom: 50px;
 }
@@ -164,9 +209,9 @@ footer p {
   font-weight: 300;
   color: #787878;
 }
-
-/*Initiatives */
-
+/*--------------------------------------------------------------
+2.3 - Initiatives
+--------------------------------------------------------------*/
 #initiativesHome h1 {
   color: #fff;
   font-weight: 300;
@@ -199,8 +244,9 @@ footer p {
 #initiativesHome a:hover {
   text-decoration: none;
 }
-
-/*The BeLocal Process */
+/*--------------------------------------------------------------
+2.4 - BeLocal Process
+--------------------------------------------------------------*/
 #process {
   padding-bottom: 50px;
 }
@@ -222,9 +268,9 @@ footer p {
   font-size: 1.2em;
   color: #787878;
 }
-
-/*Opportunities */
-
+/*--------------------------------------------------------------
+2.5 - Opportunities
+--------------------------------------------------------------*/
 #opportunities h1 {
   color: #fff;
   font-weight: 300;
@@ -255,44 +301,27 @@ footer p {
   color: #fff;
   width: 140px;
 }
-
-/*
-*************************************
-*           Community Page          *
-*************************************
-*/
-/*
- * Globals
- */
-
+/*--------------------------------------------------------------
+3.0 - Main Blog Posts
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+3.1 - Blog Posts Global
+--------------------------------------------------------------*/
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", sans-serif, Georgia, serif;
   color: #555;
 }
-
-
-/*
- * Override Bootstrap's default container.
- */
-
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
-
-
-/*
- * Masthead for nav
- */
-
+/*--------------------------------------------------------------
+3.2 - Blog Posts Navbar Masthead
+--------------------------------------------------------------*/
 .blog-masthead {
   background-color: #428bca;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
-
-/* Nav links */
+/*--------------------------------------------------------------
+3.3 - Nav Links
+--------------------------------------------------------------*/
 .blog-nav-item {
   position: relative;
   display: inline-block;
@@ -306,8 +335,9 @@ body {
   color: #fff;
   text-decoration: none;
 }
-
-/* Active state gets a caret at the bottom */
+/*--------------------------------------------------------------
+3.4 - Active State Carets
+--------------------------------------------------------------*/
 .blog-nav .active {
   color: #fff;
 }
@@ -325,12 +355,9 @@ body {
   border-bottom: 5px solid;
   border-left: 5px solid transparent;
 }
-
-
-/*
- * Blog name and description
- */
-
+/*--------------------------------------------------------------
+3.5 - Blog Name and Description
+--------------------------------------------------------------*/
 .blog-header {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -347,18 +374,16 @@ body {
   font-size: 20px;
   color: #999;
 }
-
-
-/*
- * Main column and sidebar layout
- */
-
+/*--------------------------------------------------------------
+3.6 - Main Column and Sidebar Layout
+--------------------------------------------------------------*/
 .blog-main {
   font-size: 18px;
   line-height: 1.5;
 }
-
-/* Sidebar modules for boxing content */
+/*--------------------------------------------------------------
+3.7 - Sidebar Modules For Boxing Content
+--------------------------------------------------------------*/
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
@@ -375,9 +400,9 @@ body {
 .sidebar-module-inset ol:last-child {
   margin-bottom: 0;
 }
-
-
-/* Pagination */
+/*--------------------------------------------------------------
+3.8 - Pagination
+--------------------------------------------------------------*/
 .pager {
   margin-bottom: 60px;
   text-align: left;
@@ -389,12 +414,9 @@ body {
   text-align: center;
   border-radius: 30px;
 }
-
-
-/*
- * Blog posts
- */
-
+/*--------------------------------------------------------------
+3.9 - Blog Posts
+--------------------------------------------------------------*/
 .blog-post {
   margin-bottom: 60px;
 }
@@ -418,12 +440,9 @@ body {
   margin-bottom: 20px;
   color: #999;
 }
-
-
-/*
- * Footer
- */
-
+/*--------------------------------------------------------------
+3.10 - Blog Footer
+--------------------------------------------------------------*/
 .blog-footer {
   padding: 40px 0;
   color: #999;
@@ -435,19 +454,12 @@ body {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
-
-/*
-*************************************
-*            Login Page             *
-*************************************
-*/
-/*
- * Specific styles of sign in component
- */
-
-/*
- * General styles
- */
+/*--------------------------------------------------------------
+4 - Login Template
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+4.1 - General Styles
+--------------------------------------------------------------*/
 .loginContainer {
   height: 100vh;
   /*background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
@@ -472,10 +484,9 @@ body {
     user-select: none;
     cursor: pointer;
 }
-
-/*
- * Card component
- */
+/*--------------------------------------------------------------
+4.2 - Card Component
+--------------------------------------------------------------*/
 .card {
     background-color: #F7F7F7;
     /* just in case there no content*/
@@ -499,10 +510,9 @@ body {
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
-
-/*
- * Form styles
- */
+/*--------------------------------------------------------------
+4.3 - Form Styles
+--------------------------------------------------------------*/
 .profile-name-card {
     font-size: 16px;
     font-weight: bold;
@@ -587,12 +597,12 @@ body {
 .forgot-password:focus{
     color: rgb(12, 97, 33);
 }
-
-/*
-*************************************
-*            About Page             *
-*************************************
-*/
+/*--------------------------------------------------------------
+5 - About Us Page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+5.1 - Landing Hero
+--------------------------------------------------------------*/
 #aboutHeroImage {
   background-image: url('img/RabenahyFranck11.jpg');
   background-repeat: no-repeat;
@@ -623,113 +633,9 @@ body {
     font-size: 15vw;
   }
 }
-
-/* Section Background Colors */
-.about-green-bg {
-  width: 100%;
-  background: #50BF41;/*Green*/
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-.about-gray-bg {
-  width: 100%;
-  background: #272727;/*Dark Gray*/
-  padding-top: 65px;
-  padding-bottom: 75px;
-}
-.about-blue-bg {
-  width: 100%;
-  background: #1371d6;/*Blue*/
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-.aboutTheTeam {
-  width: 100%;
-  /*background: #e3dddd;*//*Light Gray*/
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-/* End Section Background Colors */
-
-/*
-.aboutPage .btn {
-  background-color: transparent;
-  border: 1px solid #50BF41;
-  outline: none;
-  margin: 10px 0 10px 0;
-  color: #50BF41;
-  width: 135px;
-  transition: background-color 0.2s, border 0.2s, width 0.1s;
-  border-radius: 0;
-}
-
-.aboutPage .btn:hover {
-  background-color: #50BF41;
-  border: 1px solid #50BF41;
-  color: #fff;
-  width: 140px;
-}
-
-.aboutPage .about-green-bg .btn {
-  background-color: transparent;
-  border: 1px solid #272727;
-  outline: none;
-  margin: 10px 0 20px 0;
-  color: #272727;
-  width: 135px;
-  transition: background-color 0.2s, border 0.2s, width 0.1s;
-  border-radius: 0;
-}
-
-.aboutPage .about-green-bg .btn:hover {
-  background-color: #272727;
-  border: 1px solid #272727;
-  color: #50BF41;
-  width: 140px;
-}
-
-.aboutMainHeading {
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 4em;
-  font-weight: 300;
-}
-@media screen and (max-width: 650px) {
-  .aboutMainHeading {
-    font-size: 10vw;
-  }
-}
-
-.aboutSubText {
-  color: #bebebe;
-  font-size: 1.8em;
-  font-weight: 300;
-  max-width: 750px;
-  margin: 0 auto;
-  line-height: 35px;
-}
-
-.about-green-bg .aboutSubText {
-  color: #ffffff;
-}
-
-.about-blue-bg .aboutSubText {
-  color: #50BF41;
-  font-size: 2.5em;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-weight: 500;
-}
-
-.about-blue-bg p {
-  font-weight: 300;
-  font-size: 1.5em;
-  max-width: 800px;
-  margin: 0 auto;
-  color: #f0f0f0;
-}
-*/
-
+/*--------------------------------------------------------------
+5.2 - Meet The Team
+--------------------------------------------------------------*/
 .aboutTheTeam img {
   width: 100%;
   max-width: 200px;
@@ -737,123 +643,19 @@ body {
   border-radius: 50%;
 }
 
-.aboutTheTeam .aboutMainHeading {
-  color: #787878;
-}
-
-.aboutTheTeam .aboutSubText {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  color: #605f5f;
-  font-size: 2.3em;
-}
-
 .aboutTheTeam .caption {
-  color: #787878;
+  color: #606060;
   font-weight: 500;
   font-size: 17px;
   margin-top: 10px;
 }
 
-.aboutTheTeam img:hover, .aboutTheTeam .caption:hover {
+.aboutTheTeam img:hover {
   cursor: pointer;
 }
-
-/*About The Team Modal Styling*/
-/*
-.aboutPage .modal .modal-content .modal-body {
-  padding-bottom: 30px;
-}
-.aboutPage .modal .modal-content img{
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 50%;
-  margin-top: 20px;
-}
-.aboutPage .modal .modal-content i {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 40px;
-}
-.aboutPage .modal .modal-content .modal-body h1 {
-  color: #3d3d3d;
-  font-size: 3.7em;
-}
-.aboutPage .modal .modal-content .modal-body p{
-  color: #181818;
-  font-size: 1.2em;
-  max-width: 650px;
-  margin: 0 auto;
-  line-height: 30px;
-}
-*/
-
-/*Gray Background Modal Styling*/
-.aboutPage .modal .about-gray-bg-modal  {
-  background-color: #272727;
-}
-.aboutPage .modal .about-gray-bg-modal  .modal-body h1 {
-  color: #50BF41;
-}
-.aboutPage .modal .about-gray-bg-modal  .modal-body p {
-  color: #ffffff;
-}
-.aboutPage .modal .about-gray-bg-modal  i {
-  color: #ffffff;
-}
-.aboutPage .modal .about-gray-bg-modal  i:hover {
-  cursor: pointer;
-  color: #50BF41;
-}
-
-/*Blue Background Modal Styling*/
-.aboutPage .modal .about-blue-bg-modal  {
-  background-color: #1371d6;
-}
-.aboutPage .modal .about-blue-bg-modal  .modal-body h1 {
-  color: #50BF41;
-}
-.aboutPage .modal .about-blue-bg-modal  .modal-body p {
-  color: #ffffff;
-}
-.aboutPage .modal .about-blue-bg-modal  i {
-  color: #ffffff;
-}
-.aboutPage .modal .about-blue-bg-modal  i:hover {
-  cursor: pointer;
-  color: #50BF41;
-}
-
-/*Green Background Modal Styling*/
-.aboutPage .modal .about-green-bg-modal {
-  background-color: #50BF41;
-}
-.aboutPage .modal .about-green-bg-modal .modal-body h1 {
-  color: #272727;
-}
-@media screen and (max-width: 600px) {
-  .aboutPage .modal .about-green-bg-modal .modal-body h1{
-    font-size: 10vw;
-  }
-}
-.aboutPage .modal .about-green-bg-modal .modal-body p {
-  color: #f4f4f4;
-}
-.aboutPage .modal .about-green-bg-modal i {
-  color: #ffffff;
-}
-.aboutPage .modal .about-green-bg-modal i:hover {
-  cursor: pointer;
-  color: #272727;
-}
-
-
-
-
-
-/* About Page Alternating Background Colors */
+/*--------------------------------------------------------------
+5.3 - Section Background Colors
+--------------------------------------------------------------*/
 .aboutPage .about-white-bg {
   background-color: #ffffff;
   width: 100%;
@@ -867,8 +669,9 @@ body {
   padding-top: 65px;
   padding-bottom: 75px;
 }
-
-/* About Page Text Colors and Sizes*/
+/*--------------------------------------------------------------
+5.4 - Text Colors and Sizes
+--------------------------------------------------------------*/
 .aboutPage .aboutMainHeading {
   text-transform: uppercase;
   color: #414141;
@@ -876,7 +679,7 @@ body {
   font-weight: 300;
 }
 @media screen and (max-width: 650px) {
-  .aboutMainHeading {
+  .aboutPage .aboutMainHeading {
     font-size: 10vw;
   }
 }
@@ -909,8 +712,9 @@ body {
   margin-bottom: 30px;
   font-size: 2.3em;
 }
-
-/* About Page Buttons */
+/*--------------------------------------------------------------
+5.5 - Buttons
+--------------------------------------------------------------*/
 .aboutPage .green-btn {
   background-color: transparent;
   border: 1px solid #50BF41;
@@ -964,8 +768,9 @@ body {
   color: #fff;
   width: 140px;
 }
-
-/* Modal Styling */
+/*--------------------------------------------------------------
+5.6 - Modal Styling
+--------------------------------------------------------------*/
 .aboutPage .modal .modal-content .modal-body {
   padding-bottom: 30px;
 }
@@ -996,6 +801,11 @@ body {
   font-weight: 300;
   font-size: 3.7em;
 }
+@media screen and (max-width: 600px){
+  .aboutPage .modal .modal-content .modal-body h1 {
+    font-size: 10vw;
+  }
+}
 
 .aboutPage .modal .modal-content .modal-body p{
   color: #606060;
@@ -1013,20 +823,13 @@ body {
   background-color: #ebebeb;
 }
 
-
-
-
-
-
-
-
-
-
-/*
-*************************************
-*          Registration Page        *
-*************************************
-*/
+.aboutPage .about-inline-modal:hover {
+  cursor: pointer;
+  color: #1371d6;
+}
+/*--------------------------------------------------------------
+6 - BuddyPress Registration Override Styles
+--------------------------------------------------------------*/
 .registration-page-wrap {
   background-color: #272727;
   min-height: 100vh;

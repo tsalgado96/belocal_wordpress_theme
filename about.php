@@ -228,7 +228,7 @@
           <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
           <img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney">
           <h1>Jesse McKinney</h1>
-          <p>Jesse McKinney, a trained designer, is currently serving as the Chief Technology Officer of Centre ValBio. He has for the last five years lived and worked in rural Madagascar advising and implementing technology forward initiatives for health and scientific research. Prior to his current position, Jesse served in the United States Peace Corps Madagascar as an Internet and Communication Technology Volunteer. Before working in Madagascar, Jesse had a professional career as an Industrial and Digital Designer, where he held positions at a number of engineering facilities and design firms throughout the USA. In addition to his experience as a designer, Jesse has significant professional experience in robotic systems integration, movement and perception centric industrial automation engineering, and software development. Jesse’s current research interest is in novel applications of low cost distributed sensor networks for ecosystems scale data capture and processing. Jesse holds a BS in Digital Design from the College of DAAP @ the University of Cincinnati.
+          <p>Jesse McKinney, a trained designer, is currently serving as the Chief Technology Officer of Centre ValBio. He has for the last five years lived and worked in rural Madagascar advising and implementing technology forward initiatives for health and scientific research. Prior to his current position, Jesse served in the United States Peace Corps Madagascar as an Internet and Communication Technology Volunteer. Before working in Madagascar, Jesse had a professional career as an Industrial and Digital Designer, where he held positions at a number of engineering facilities and design firms throughout the USA. In addition to his experience as a designer, Jesse has significant professional experience in robotic systems integration, movement and perception centric industrial automation engineering, and software development. Jesse’s current research interest is in novel applications of low cost distributed sensor networks for ecosystems scale data capture and processing. Jesse holds a BS in Digital Design from the College of DAAP at the University of Cincinnati.
           </p>
         </div>
       </div>
@@ -305,26 +305,26 @@
   <div style="border-top: 3px solid #50BF41; border-bottom: 3px solid #50BF41;" class="about-white-bg container text-center">
     <h1 class="aboutMainHeading">The BeLocal Process</h1>
     <h3 style="color:#C5E1A5" class="aboutSubText process-heading">Discover</h3>
-      <p class="process-text">Engage directly with local population for insight and cultural context. Collect and annotate data-rich <span class="green">everyday life stories</span> of the local population in video, audio and text.</p>
+      <p class="process-text">Engage directly with local population for insight and cultural context. Collect and annotate data-rich everyday life stories of the local population in video, audio and text.</p>
       <span class="btn green-btn" data-toggle="modal" data-target=".discoverModal">Learn More</span>
     <h3 style="color:#AED581" class="aboutSubText process-heading">Define</h3>
-      <p class="process-text">Crowd-source the identification of challenges described or observed in the collected data. <span class="green">Form problem statements</span> that address the most compelling and greatest number of challenges.</p>
+      <p class="process-text">Crowd-source the identification of challenges described or observed in the collected data. Form problem statements that address the most compelling and greatest number of challenges.</p>
       <span class="btn green-btn" data-toggle="modal" data-target=".defineModal">Learn More</span>
     <h3 style="color:#8BC34A" class="aboutSubText process-heading">Innovate</h3>
-      <p class="process-text">Crowd-source solutions that fit the local situation and can be <span class="green">self-sustaining</span>. Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
+      <p class="process-text">Crowd-source solutions that fit the local situation and can be self-sustaining. Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
       <span class="btn green-btn" data-toggle="modal" data-target=".innovateModal">Learn More</span>
     <h3 style="color:#689F38" class="aboutSubText process-heading">Pilot</h3>
-      <p class="process-text">Test and refine solutions with the initial engaged population and beyond. <span class="green">Rank the solutions</span> based on performance and degree of adoption.</p>
+      <p class="process-text">Test and refine solutions with the initial engaged population and beyond. Rank the solutions based on performance and degree of adoption.</p>
       <span class="btn green-btn" data-toggle="modal" data-target=".pilotModal">Learn More</span>
     <h3 style="color:#33691E" class="aboutSubText process-heading">Impact</h3>
-      <p class="process-text"><span class="green">Achieve self-sustaining impact</span> by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population. Work with village resources to enable local manufacturing and production.</p>
+      <p class="process-text">Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population. Work with village resources to enable local manufacturing and production.</p>
       <span class="btn green-btn" data-toggle="modal" data-target=".impactModal">Learn More</span>
   </div>
 
   <div class="about-offwhite-bg container text-center">
     <h1 class="aboutMainHeading">Program Development</h1>
-    <h3 class="aboutSubText">BeLocal Group started working with <span class="green">Dr. Wright</span> and the Chief
-      Technology Officer of the Centre ValBio, <span class="green">Jesse McKinney</span>, in the summer of 2016 to
+    <h3 class="aboutSubText">BeLocal Group started working with <span class="green about-inline-modal" data-toggle="modal" data-target=".patriciaWrightModal">Dr. Wright</span> and the Chief
+      Technology Officer of the Centre ValBio, <span class="green about-inline-modal" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</span>, in the summer of 2016 to
       pilot the Process on Madagascar. The first Discover expedition was conducted in
       January of 2017 by a combined student and CVB team.</h3>
     <span class="btn green-btn" data-toggle="modal" data-target=".programDevModal">Our History</span>
@@ -335,22 +335,22 @@
 
     <h3 class="aboutSubText">BeLocal Group</h3>
     <div class="row">
-      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel" data-toggle="modal" data-target=".jeffNagelModal"><div class="caption" data-toggle="modal" data-target=".jeffNagelModal">Jeff Nagel</div></div>
-      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel" data-toggle="modal" data-target=".mickieNagelModal"><div class="caption" data-toggle="modal" data-target=".mickieNagelModal">Mickie Nagel</div></div>
-      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson" data-toggle="modal" data-target=".ericBergersonModal"><div class="caption" data-toggle="modal" data-target=".ericBergersonModal">Eric Bergerson</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel" data-toggle="modal" data-target=".jeffNagelModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".jeffNagelModal">Jeff Nagel</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel" data-toggle="modal" data-target=".mickieNagelModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".mickieNagelModal">Mickie Nagel</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson" data-toggle="modal" data-target=".ericBergersonModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".ericBergersonModal">Eric Bergerson</div></div>
     </div>
 
       <h3 class="aboutSubText">Stony Brook University</h3>
       <div class="row">
-        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright" data-toggle="modal" data-target=".patriciaWrightModal"><div class="caption" data-toggle="modal" data-target=".patriciaWrightModal">Patricia Wright</div></div>
-        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney" data-toggle="modal" data-target=".jesseMckinneyModal"><div class="caption" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</div></div>
+        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright" data-toggle="modal" data-target=".patriciaWrightModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".patriciaWrightModal">Patricia Wright</div></div>
+        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney" data-toggle="modal" data-target=".jesseMckinneyModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</div></div>
       </div>
 
       <h3 class="aboutSubText">Advisory Council</h3>
       <div class="row">
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small" data-toggle="modal" data-target=".peterSmallModal"><div class="caption" data-toggle="modal" data-target=".peterSmallModal">Peter Small</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric" data-toggle="modal" data-target=".petarDjuricModal"><div class="caption" data-toggle="modal" data-target=".petarDjuricModal">Petar Djuric</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption" data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small" data-toggle="modal" data-target=".peterSmallModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".peterSmallModal">Peter Small</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric" data-toggle="modal" data-target=".petarDjuricModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".petarDjuricModal">Petar Djuric</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
       </div>
 
   </div>
