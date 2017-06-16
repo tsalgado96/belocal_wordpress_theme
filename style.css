@@ -870,16 +870,11 @@ body {
 6 - BuddyPress Registration Override Styles
 --------------------------------------------------------------*/
 .registration-page-wrap {
-  background-color: #272727;
+  background-color: #f2f2f2;
   min-height: 100vh;
-  color: #ffffff;
+  color: #414141;
   padding-top: 100px;
   padding-bottom: 75px;
-}
-
-.registration-page-wrap .container {
-  border: 1px dashed #dadada;
-  padding-bottom: 25px;
 }
 
 .registration-page-wrap .container .blog-header {
@@ -907,10 +902,10 @@ body {
 #buddypress .dir-search input[type=text],
 #buddypress .groups-members-search input[type=search],
 #buddypress .groups-members-search input[type=text] {
-	border: 1px solid #cccccc !important;
+	border: 1px solid #414141 !important;
 	background: none !important;
 	border-radius: 0;
-	color: #dadada !important;
+	color: #606060 !important;
 	font: inherit;
 	font-size: 100%;
 	padding: 6px;
@@ -921,4 +916,36 @@ body {
 #buddypress .standard-form #basic-details-section input[type=email],
 #buddypress .standard-form #blog-details-section input#signup_blog_url {
 	width: 90% !important;
+}
+
+#buddypress .comment-reply-link,
+#buddypress .generic-button a,
+#buddypress .standard-form button,
+#buddypress a.button,
+#buddypress input[type=button],
+#buddypress input[type=reset],
+#buddypress input[type=submit],
+#buddypress ul.button-nav li a,
+a.bp-title-button {
+  background-color: transparent !important;
+  border: 1px solid #50BF41 !important;
+  outline: none;
+  color: #50BF41 !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+#buddypress .comment-reply-link:hover,
+#buddypress .generic-button a:hover,
+#buddypress .standard-form button:hover,
+#buddypress a.button:hover,
+#buddypress input[type=button]:hover,
+#buddypress input[type=reset]:hover,
+#buddypress input[type=submit]:hover,
+#buddypress ul.button-nav li a:hover,
+a.bp-title-button:hover {
+  background-color: #50BF41 !important;
+  border: 1px solid #50BF41 !important;
+  color: #fff !important;
 }

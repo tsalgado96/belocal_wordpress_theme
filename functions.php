@@ -33,3 +33,18 @@
   }
 
   add_action('widgets_init', 'blg_init_widgets');
+
+  // Custom Wordpress Login Image
+  function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+          background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/img/belocal-wordpress-login-logo3.png);
+      		height:130px;
+      		width:320px;
+      		background-size: contain;
+      		background-repeat: no-repeat;
+              	padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );

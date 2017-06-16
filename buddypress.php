@@ -3,7 +3,7 @@
   <div class="registration-page-wrap">
     <div class="container">
       <div class="blog-header">
-        <h1 class="blog-title text-center"><?php echo get_the_title(); ?></h1>
+        <h1 style="font-weight: 300;" class="blog-title text-center"><?php echo get_the_title(); ?></h1>
       </div>
         <div class="blog-main">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
