@@ -969,6 +969,7 @@ body {
 .aboutPage .modal .modal-content .modal-body {
   padding-bottom: 30px;
 }
+
 .aboutPage .modal .modal-content img{
   width: 100%;
   max-width: 350px;
@@ -976,38 +977,32 @@ body {
   border-radius: 50%;
   margin-top: 20px;
 }
+
 .aboutPage .modal .modal-content i {
+  color: #272727;
   position: absolute;
   top: 5px;
   right: 5px;
   font-size: 40px;
 }
-.aboutPage .modal .modal-content .modal-body h1 {
-  color: #3d3d3d;
-  font-size: 3.7em;
-}
-.aboutPage .modal .modal-content .modal-body p{
-  color: #181818;
-  font-size: 1.2em;
-  max-width: 650px;
-  margin: 0 auto;
-  line-height: 30px;
-}
 
-.aboutPage .modal i {
-  color: #272727;
-}
-.aboutPage .modal i:hover {
+.aboutPage .modal .modal-content i:hover {
   cursor: pointer;
   color: #50BF41;
 }
 
-.aboutPage .modal .modal-body h1 {
+.aboutPage .modal .modal-content .modal-body h1 {
   color: #414141;
+  font-weight: 300;
+  font-size: 3.7em;
 }
 
-.aboutPage .modal .modal-body p {
+.aboutPage .modal .modal-content .modal-body p{
   color: #606060;
+  font-size: 1.2em;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 30px;
 }
 
 .aboutPage .modal .about-white-bg-modal  {
