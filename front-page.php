@@ -56,6 +56,8 @@
   </head>
   <body>
   <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- Fix Admin Menu Overlap -->
+    <?php if ( is_admin_bar_showing() ) echo '<div style="min-height: 32px;"></div>'; ?>
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -111,7 +113,7 @@
 
   <div id="initiativesHome" class="container-fluid content text-center">
     <h1>Current Initiative</h1>
-    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>"><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span></a>
+    <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
   </div>
 
   <section id="process" class="container-fluid text-center">
