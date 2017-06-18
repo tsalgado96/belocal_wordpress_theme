@@ -142,7 +142,10 @@
     <div class="maxContainer">
       <h1><?php echo get_theme_mod('join_heading', 'Join Our Team'); ?></h1>
       <p><?php echo get_theme_mod('join_text', 'BeLocal Group'); ?></p>
-      <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Register' ) ) ); ?>" class="btn"><?php echo get_theme_mod('join_btn', 'Get Started'); ?></a>
+      <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>" class="btn"><?php echo get_theme_mod('join_btn', 'Get Started'); ?></a>
+      <br>
+      <a href="https://www.facebook.com/groups/belocalgroup/" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
+      <a href="https://www.instagram.com/belocalgroup/" target="_blank"><i class="fa fa-instagram fa-4x"></i></a>
     </div>
   </div>
 

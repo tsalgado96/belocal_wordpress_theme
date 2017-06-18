@@ -62,7 +62,7 @@ body, html {
   padding: 10px;
 }
 .readText {
-  
+  color: #aaaaaa;
 }
 /*--------------------------------------------------------------
 1.1 - BeLocal Main Colors
@@ -329,6 +329,17 @@ footer .footer-nav .menu-footer-navigation li {
   border: 1px solid #50BF41;
   color: #fff;
   width: 140px;
+}
+
+#opportunities i.fa {
+  color: #ffffff;
+  margin-top: 75px;
+  padding: 0 30px;
+  transition: color .2s ease;
+}
+
+#opportunities i.fa:hover {
+  color: #50BF41;
 }
 /*--------------------------------------------------------------
 3.0 - Main Blog Posts
@@ -850,7 +861,7 @@ body {
 }
 
 .aboutPage .modal .modal-content .modal-body p{
-  color: #606060;
+  color: #414141;
   font-size: 1.2em;
   max-width: 650px;
   margin: 0 auto;
