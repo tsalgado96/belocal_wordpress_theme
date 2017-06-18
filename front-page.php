@@ -98,8 +98,7 @@
   <section id="work" class="container-fluid text-center">
     <div class="maxContainer">
       <h1>Our Work</h1>
-      <h3>We provide developing communities the power to leverage global crowd
-        sourced innovation to solve local challenges.</h3>
+      <h3>The BeLocal Group was created to provide developing countries the power to leverage global crowd-sourced innovation to solve their everyday quality of life challenges.</h3>
       <h2>The Secret Recipe</h2>
       <p>Local Engagement + Everyday Challenges + Crowd-sourced Innovation
         + Market Incentives</p>
@@ -111,6 +110,13 @@
     </div>
   </section>
 
+  <section style="border-top: 3px solid #50BF41;" id="work" class="about-offwhite-bg container-fluid text-center">
+    <div class="maxContainer">
+      <h1>Why BeLocal</h1>
+      <h3>The developing world faces many everyday challenges where innovation could help, but they lack access to experienced innovators.  At the same time, there are many creative innovators all over the world who would like to help, but don’t have access to local problems.  BeLocal provides the right connection.</h3>
+    </div>
+  </section>
+
   <div id="initiativesHome" class="container-fluid content text-center">
     <h1>Current Initiative</h1>
     <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
@@ -119,6 +125,7 @@
   <section id="process" class="container-fluid text-center">
     <div class="maxContainer">
       <h1>The BeLocal Process</h1>
+      <h3>We work through a structured, web-based process for innovation that begins with listening to the local needs and understanding local cultural requirements.</h3>
       <h2 style="color:#C5E1A5">Discover</h2>
       <p>Collect and annotate data-rich everyday life stories of the local population in video,
         audio and text. Engage directly with local population for insight and cultural context.</p>

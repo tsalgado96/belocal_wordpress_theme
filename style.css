@@ -47,7 +47,7 @@ Tags: belocal
   5.4 Text Colors and Sizes
   5.5 Buttons
   5.6 Modal Styling
-  5.7 Contributions
+  5.7 Paddings
 6.0 BuddyPress Registration Override Styles
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -231,6 +231,7 @@ footer .footer-nav .menu-footer-navigation li {
 #work h3 {
   font-weight: 300;
   color: #606060;
+  line-height: 35px;
 }
 
 #work p {
@@ -290,6 +291,12 @@ footer .footer-nav .menu-footer-navigation li {
 #process h2 {
   margin-top: 30px;
   font-weight: 300;
+}
+
+#process h3 {
+  font-weight: 300;
+  color: #606060;
+  line-height: 35px;
 }
 
 #process p {
@@ -644,15 +651,15 @@ body {
 5.1 - Landing Hero
 --------------------------------------------------------------*/
 #aboutHeroImage {
-  background-image: url('img/RabenahyFranck11.jpg');
+  background-image: url('img/aboutHero2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   height: 550px;
 }
 
 .aboutOverlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   height: 100%;
 }
 
@@ -700,18 +707,16 @@ body {
 /*--------------------------------------------------------------
 5.3 - Section Background Colors
 --------------------------------------------------------------*/
-.aboutPage .about-white-bg {
+.about-white-bg {
   background-color: #ffffff;
   width: 100%;
   padding-top: 65px;
   padding-bottom: 75px;
 }
 
-.aboutPage .about-offwhite-bg {
+.about-offwhite-bg {
   background-color: #f2f2f2;
   width: 100%;
-  padding-top: 65px;
-  padding-bottom: 75px;
 }
 /*--------------------------------------------------------------
 5.4 - Text Colors and Sizes
@@ -879,6 +884,16 @@ body {
 .aboutPage .about-inline-modal:hover {
   cursor: pointer;
   color: #1371d6;
+}
+/*--------------------------------------------------------------
+5.7 - Paddings
+--------------------------------------------------------------*/
+.mediumTopPadding {
+  padding-top: 65px;
+}
+
+.mediumBottomPadding {
+  padding-bottom: 65px;
 }
 /*--------------------------------------------------------------
 6 - BuddyPress Registration Override Styles

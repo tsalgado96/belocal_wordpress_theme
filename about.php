@@ -284,12 +284,11 @@
 
 <!-- ****** END MODALS ****** -->
 
-  <div class="about-offwhite-bg container text-center">
-    <h1 class="aboutMainHeading">Mission Statement</h1>
-    <h3 class="aboutSubText">We, at BeLocal, believe that great innovation starts with empathy for the people we serve.  Our process begins and ends with their input because our success is measured by their voluntary adoption of innovations that <span class="blue">improve their lives</span>.  We believe that agency matters and makes for the best long term changes.  BeLocal is ultimately about empowering people to make their own lives better.</h3>
+  <div style="border-bottom: 3px solid #1371d6;" class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
+    <h3 class="aboutSubText">We believe that great innovation starts with empathy for the people we serve.  Our process begins and ends with their input because our success is measured by their voluntary adoption of innovations that <span class="blue">improve their lives</span>.  We believe that agency matters and makes for the best long term changes.  BeLocal is ultimately about empowering people to make their own lives better.</h3>
     <!--<span class="btn" data-toggle="modal" data-target=".programDevModal">See More</span>-->
   </div>
-
+<!--
   <div style="border-top: 3px solid #1371d6;" class="about-white-bg container text-center">
     <h1 class="aboutMainHeading">Conventional Philanthropy</h1>
     <h3 class="aboutSubText">Philanthropic methods have evolved over time to address a range of needs and increase effectiveness.  Direct contributions of goods and services are effective in serving immediate needs but are not self-sustaining and frequently have <span class="blue">unintended side effects</span> in removing agency.  Contributions of enabling resources and training can address an important range of needs for larger scale infrastructure (e.g. hospitals) and specialized expertise (e.g. agricultural techniques) but are again, not self-sustaining and can suffer some of the same issues around agency.</h3>
@@ -320,14 +319,11 @@
       <p class="process-text">Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population. Work with village resources to enable local manufacturing and production.</p>
       <span class="btn green-btn" data-toggle="modal" data-target=".impactModal">Learn More</span>
   </div>
-
-  <div class="about-offwhite-bg container text-center">
-    <h1 class="aboutMainHeading">Program Development</h1>
-    <h3 class="aboutSubText">BeLocal Group started working with <span class="green about-inline-modal" data-toggle="modal" data-target=".patriciaWrightModal">Dr. Wright</span> and the Chief
-      Technology Officer of the Centre ValBio, <span class="green about-inline-modal" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</span>, in the summer of 2016 to
-      pilot the Process on Madagascar. The first Discover expedition was conducted in
-      January of 2017 by a combined student and CVB team.</h3>
-    <span class="btn green-btn" data-toggle="modal" data-target=".programDevModal">Our History</span>
+-->
+  <div class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
+    <h1 class="aboutMainHeading">BeLocal Partnership</h1>
+    <h3 class="aboutSubText">The BeLocal Group was formed at the beginning of 2017 in partnership with <span class="about-inline-modal green" data-toggle="modal" data-target=".patriciaWrightModal">Dr Patricia Wright</span> of Stony Brook University (SBU) and <span class="about-inline-modal green" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</span> of Centre ValBio.  We held our introductory kick-off session at Stony Brook in February of 2017 with a diverse interdisciplinary group of professors and students.  From that session, our advisory group was created and a plan put in place to launch the BeLocal Process with the SBU Senior Engineering Design classes in the Fall of 2018.  Our first major expedition is underway on Madagascar, to be completed in July.  The first Discover data set is being developed in parallel with the BeLocal Process web platform.  The process, platform, and suggested project areas will be presented to the Senior Design professors in August and the students in September.  The best projects will be selected for piloting on Madagascar in June of 2018.  Stay tuned!</h3>
+    <!--<span class="btn green-btn" data-toggle="modal" data-target=".programDevModal">Our History</span>-->
   </div>
 
   <div style="border-top: 3px solid #50BF41;" class="aboutTheTeam container text-center">
