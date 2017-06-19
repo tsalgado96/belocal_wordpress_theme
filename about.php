@@ -322,31 +322,31 @@
 -->
   <div class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
     <h1 class="aboutMainHeading">BeLocal Partnership</h1>
-    <h3 class="aboutSubText">The BeLocal Group was formed at the beginning of 2017 in partnership with <span class="about-inline-modal green" data-toggle="modal" data-target=".patriciaWrightModal">Dr Patricia Wright</span> of Stony Brook University (SBU) and <span class="about-inline-modal green" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</span> of Centre ValBio.  We held our introductory kick-off session at Stony Brook in February of 2017 with a diverse interdisciplinary group of professors and students.  From that session, our advisory group was created and a plan put in place to launch the BeLocal Process with the SBU Senior Engineering Design classes in the Fall of 2018.  Our first major expedition is underway on Madagascar, to be completed in July.  The first Discover data set is being developed in parallel with the BeLocal Process web platform.  The process, platform, and suggested project areas will be presented to the Senior Design professors in August and the students in September.  The best projects will be selected for piloting on Madagascar in June of 2018.  Stay tuned!</h3>
+    <h3 class="aboutSubText">The BeLocal Group was formed at the beginning of 2017 in partnership with <span class="inline-modal green" data-toggle="modal" data-target=".patriciaWrightModal">Dr Patricia Wright</span> of Stony Brook University (SBU) and <span class="inline-modal green" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</span> of Centre ValBio.  We held our introductory kick-off session at Stony Brook in February of 2017 with a diverse interdisciplinary group of professors and students.  From that session, our advisory group was created and a plan put in place to launch the BeLocal Process with the SBU Senior Engineering Design classes in the Fall of 2018.  Our first major expedition is underway on Madagascar, to be completed in July.  The first Discover data set is being developed in parallel with the BeLocal Process web platform.  The process, platform, and suggested project areas will be presented to the Senior Design professors in August and the students in September.  The best projects will be selected for piloting on Madagascar in June of 2018.  Stay tuned!</h3>
     <!--<span class="btn green-btn" data-toggle="modal" data-target=".programDevModal">Our History</span>-->
   </div>
 
-  <div style="border-top: 3px solid #50BF41;" class="aboutTheTeam container text-center">
+  <div style="border-top: 3px solid #1371d6;" class="aboutTheTeam container text-center">
     <h1 class="aboutMainHeading">Meet The Team</h1>
 
     <h3 class="aboutSubText">BeLocal Group</h3>
     <div class="row">
-      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel" data-toggle="modal" data-target=".jeffNagelModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".jeffNagelModal">Jeff Nagel</div></div>
-      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel" data-toggle="modal" data-target=".mickieNagelModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".mickieNagelModal">Mickie Nagel</div></div>
-      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson" data-toggle="modal" data-target=".ericBergersonModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".ericBergersonModal">Eric Bergerson</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel" data-toggle="modal" data-target=".jeffNagelModal"><div class="caption inline-modal " data-toggle="modal" data-target=".jeffNagelModal">Jeff Nagel</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel" data-toggle="modal" data-target=".mickieNagelModal"><div class="caption inline-modal " data-toggle="modal" data-target=".mickieNagelModal">Mickie Nagel</div></div>
+      <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson" data-toggle="modal" data-target=".ericBergersonModal"><div class="caption inline-modal " data-toggle="modal" data-target=".ericBergersonModal">Eric Bergerson</div></div>
     </div>
 
       <h3 class="aboutSubText">Stony Brook University</h3>
       <div class="row">
-        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright" data-toggle="modal" data-target=".patriciaWrightModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".patriciaWrightModal">Patricia Wright</div></div>
-        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney" data-toggle="modal" data-target=".jesseMckinneyModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</div></div>
+        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright" data-toggle="modal" data-target=".patriciaWrightModal"><div class="caption inline-modal " data-toggle="modal" data-target=".patriciaWrightModal">Patricia Wright</div></div>
+        <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney" data-toggle="modal" data-target=".jesseMckinneyModal"><div class="caption inline-modal " data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</div></div>
       </div>
 
       <h3 class="aboutSubText">Advisory Council</h3>
       <div class="row">
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small" data-toggle="modal" data-target=".peterSmallModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".peterSmallModal">Peter Small</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric" data-toggle="modal" data-target=".petarDjuricModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".petarDjuricModal">Petar Djuric</div></div>
-        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption about-inline-modal" data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small" data-toggle="modal" data-target=".peterSmallModal"><div class="caption inline-modal " data-toggle="modal" data-target=".peterSmallModal">Peter Small</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric" data-toggle="modal" data-target=".petarDjuricModal"><div class="caption inline-modal " data-toggle="modal" data-target=".petarDjuricModal">Petar Djuric</div></div>
+        <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption inline-modal " data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
       </div>
 
       <h3 class="aboutSubText">Contributors</h3>

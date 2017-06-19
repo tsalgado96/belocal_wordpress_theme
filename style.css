@@ -74,6 +74,26 @@ body, html {
 .green {
   color: #50BF41;
 }
+
+.green1 {
+  color: #C5E1A5;
+}
+
+.green2 {
+  color: #AED581;
+}
+
+.green3 {
+  color: #8BC34A;
+}
+
+.green4 {
+  color: #689F38;
+}
+
+.green5 {
+  color: #33691E;
+}
 /*--------------------------------------------------------------
 1.2 - Bootstrap Overrides
 --------------------------------------------------------------*/
@@ -106,12 +126,11 @@ body, html {
 1.3 - Containers
 --------------------------------------------------------------*/
 .content {
-  height: 70vh;
   background-color: #eeeeee;
 }
 
 .maxContainer {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -242,10 +261,15 @@ footer .footer-nav .menu-footer-navigation li {
 /*--------------------------------------------------------------
 2.3 - Initiatives
 --------------------------------------------------------------*/
+#initiativesHome {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
 #initiativesHome h1 {
   color: #fff;
   font-weight: 300;
-  margin: 50px 0 125px 0;
+  margin-bottom: 100px;
 }
 
 #initiativesHome span {
@@ -317,7 +341,7 @@ footer .footer-nav .menu-footer-navigation li {
   color: #fff;
   font-weight: 300;
   font-size: 1.3em;
-  margin-top: 90px;
+  margin-top: 75px;
 }
 
 #opportunities .btn {
@@ -341,6 +365,7 @@ footer .footer-nav .menu-footer-navigation li {
 #opportunities i.fa {
   color: #ffffff;
   margin-top: 75px;
+  margin-bottom: 50px;
   padding: 0 30px;
   transition: color .2s ease;
 }
@@ -655,7 +680,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 550px;
+  height: 75vh;
 }
 
 .aboutOverlay {
@@ -829,11 +854,11 @@ body {
 /*--------------------------------------------------------------
 5.6 - Modal Styling
 --------------------------------------------------------------*/
-.aboutPage .modal .modal-content .modal-body {
+.modal .modal-content .modal-body {
   padding-bottom: 30px;
 }
 
-.aboutPage .modal .modal-content img{
+.modal .modal-content img{
   width: 100%;
   max-width: 350px;
   height: auto;
@@ -841,7 +866,7 @@ body {
   margin-top: 20px;
 }
 
-.aboutPage .modal .modal-content i {
+.modal .modal-content i {
   color: #272727;
   position: absolute;
   top: 5px;
@@ -849,23 +874,23 @@ body {
   font-size: 40px;
 }
 
-.aboutPage .modal .modal-content i:hover {
+.modal .modal-content i:hover {
   cursor: pointer;
   color: #50BF41;
 }
 
-.aboutPage .modal .modal-content .modal-body h1 {
+.modal .modal-content .modal-body h1 {
   color: #414141;
   font-weight: 300;
   font-size: 3.7em;
 }
 @media screen and (max-width: 600px){
-  .aboutPage .modal .modal-content .modal-body h1 {
+  .modal .modal-content .modal-body h1 {
     font-size: 10vw;
   }
 }
 
-.aboutPage .modal .modal-content .modal-body p{
+.modal .modal-content .modal-body p{
   color: #414141;
   font-size: 1.2em;
   max-width: 650px;
@@ -873,15 +898,15 @@ body {
   line-height: 30px;
 }
 
-.aboutPage .modal .about-white-bg-modal  {
+.modal .about-white-bg-modal  {
   background-color: #ffffff;
 }
 
-.aboutPage .modal .about-offwhite-bg-modal  {
+.modal .about-offwhite-bg-modal  {
   background-color: #ebebeb;
 }
 
-.aboutPage .about-inline-modal:hover {
+.inline-modal:hover {
   cursor: pointer;
   color: #1371d6;
 }
