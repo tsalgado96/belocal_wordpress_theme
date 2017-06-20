@@ -25,6 +25,7 @@ Tags: belocal
   2.3 Initiatives
   2.4 BeLocal Process
   2.5 Opportunities
+  2.6 Opt In Email Form
 3.0 Main Blog Posts
   3.1 Blog Posts Global
   3.2 Blog Posts Navbar Masthead
@@ -50,6 +51,8 @@ Tags: belocal
   5.7 Paddings
 6.0 Contact Us Page
   6.1 Landing Hero
+  6.2 Text
+  6.3 Google Map
 7.0 BuddyPress Registration Override Styles
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -349,7 +352,6 @@ footer .footer-nav .menu-footer-navigation li {
 #opportunities .btn {
   background-color: transparent;
   border: 1px solid #fff;
-  outline: none;
   margin-top: 50px;
   color: #fff;
   width: 135px;
@@ -374,6 +376,41 @@ footer .footer-nav .menu-footer-navigation li {
 
 #opportunities i.fa:hover {
   color: #50BF41;
+}
+/*--------------------------------------------------------------
+2.6 - Opt In Email Form
+--------------------------------------------------------------*/
+.optinForm {
+  margin: 50px auto 0 auto;
+  max-width: 500px;
+  font-family: "Raleway", sans-serif;
+}
+
+.optinForm .regInput{
+  background: rgba(159, 159, 159, 0.2);
+  border: 1px solid #fff;
+  padding: 10px 20px 10px 10px;
+  font-size: 16px;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.optinForm .regInput::placeholder{
+  color: #cccccc;
+}
+
+.optinForm .submit {
+  background-color: rgba(80, 191, 65, 0.7);
+  border: none;
+  color: #fff;
+  width: 100%;
+  font-size: 22px;
+  padding: 10px 0;
+  border-radius: 0;
+}
+.optinForm .submit:hover {
+  background-color: #50BF41;
 }
 /*--------------------------------------------------------------
 3.0 - Main Blog Posts
