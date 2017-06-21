@@ -252,14 +252,81 @@
     <div class="maxContainer">
       <h1><?php echo get_theme_mod('join_heading', 'Join Our Team'); ?></h1>
       <p><?php echo get_theme_mod('join_text', 'BeLocal Group'); ?></p>
-      <form class="optinForm" action="index.html" method="post">
-        <div class="row">
-          <div class="col-sm-6"><input class="regInput" type="text" name="name" placeholder="Name"></div>
-          <div class="col-sm-6"><input class="regInput" type="text" name="email" placeholder="Email"></div>
-        </div>
-        <br>
-        <input class="submit" type="submit" name="submit" value="Sign Up">
-      </form>
+
+      <?php
+        //response generation function
+        $response = "";
+        //function to generate response
+        function my_contact_form_generate_response($type, $message){
+          global $response;
+          if($type == "success") {
+            $response = "<div class='success'>{$message}</div>";
+          }
+          else $response = "<div class='error'>{$message}</div>";
+        }
+        //response messages
+        $missing_content = "Name Invalid.";
+        $email_invalid   = "Email Address Invalid.";
+        $message_unsent  = "Email not recorded. Try Again.";
+        $message_sent    = "Thanks! Your email has been recorded.";
+
+        //user posted variables
+        $name = $_POST['contactName'];
+        $email = $_POST['contactEmail'];
+        $message = 'This is a test';
+
+        //php mailer variables
+        $to = 'tsalgado96@gmail.com';
+        $subject = "BeLocal Group Contact Form";
+        $headers = 'From: '. $email . "\r\n" .
+          'Reply-To: ' . $email . "\r\n";
+
+        if($_POST['submit']){
+          //validate email
+          if (!$_POST['submitted']) {
+            my_contact_form_generate_response("error", $missing_content);
+          }
+          else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            my_contact_form_generate_response("error", $email_invalid);
+          }
+          else //email is valid
+          {
+            //validate presence of name and message
+            if(empty($name)){
+              my_contact_form_generate_response("error", $missing_content);
+            }
+            else //ready to go!
+            {
+              $sent = wp_mail($to, $subject, strip_tags($message), $headers);
+              if($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
+              else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
+            }
+          }
+
+
+        }
+      ?>
+
+
+          <form class="optinForm" action="#opportunities" method="post">
+            <div class="row">
+              <div class="col-sm-6">
+                <input class="regInput" type="text" name="contactName" id="contactName" value="<?php echo esc_attr($_POST['contactName']) ?>" placeholder="Name*">
+                <?php if(empty($name) && filter_var($email, FILTER_VALIDATE_EMAIL)){ echo $response; } ?>
+              </div>
+
+              <div class="col-sm-6">
+                <input class="regInput" type="text" name="contactEmail" id="email" value="<?php echo esc_attr($_POST['contactEmail']) ?>" placeholder="Email*">
+                <?php if(!filter_var($email, FILTER_VALIDATE_EMAIL)){ echo $response; } ?>
+              </div>
+            </div>
+            <br>
+            <input type="hidden" name="submitted" value="1">
+            <input class="submit" type="submit" name="submit" value="Sign Up">
+            <?php if($sent == true){ echo $response;} ?>
+          </form>
+
+
       <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>" class="btn"><?php echo get_theme_mod('join_btn', 'Get Started'); ?></a>-->
       <br>
       <a href="https://www.facebook.com/groups/belocalgroup/" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
