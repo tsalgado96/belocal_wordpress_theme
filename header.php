@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Main Stylsheet -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-
-
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>

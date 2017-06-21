@@ -1,6 +1,5 @@
 <?php /* Template Name: About Page */ ?>
 <?php get_header(); ?>
-
 <div id="aboutHeroImage">
   <div class="container-fluid aboutOverlay">
     <div class="aboutHero">
@@ -8,11 +7,8 @@
     </div>
   </div>
 </div>
-
 <div class="aboutPage">
-
 <!-- ****** MODALS ****** -->
-
   <!-- CONVENTIONAL PHILANTHROPY MODAL -->
   <div class="modal fade conventPhilanModal" tabindex="-1" role="dialog" aria-labelledby="conventPhilanModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -27,8 +23,6 @@
     </div>
   </div>
   <!-- END CONVENTIONAL PHILANTHROPY MODAL -->
-
-
   <!-- THE BELOCAL DIFFERENCE MODAL -->
   <div class="modal fade belocalDiffModal" tabindex="-1" role="dialog" aria-labelledby="belocalDiffModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -43,8 +37,6 @@
     </div>
   </div>
   <!-- END THE BELOCAL DIFFERENCE MODAL -->
-
-
   <!-- THE BELOCAL PROCESS MODALS -->
   <!-- Discover -->
   <div class="modal fade discoverModal" tabindex="-1" role="dialog" aria-labelledby="discoverModal">
@@ -64,7 +56,6 @@
       </div>
     </div>
   </div>
-
   <!-- Define -->
   <div class="modal fade defineModal" tabindex="-1" role="dialog" aria-labelledby="defineModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -89,7 +80,6 @@
       </div>
     </div>
   </div>
-
   <!-- Innovate -->
   <div class="modal fade innovateModal" tabindex="-1" role="dialog" aria-labelledby="innovateModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -106,7 +96,6 @@
       </div>
     </div>
   </div>
-
   <!-- Pilot -->
   <div class="modal fade pilotModal" tabindex="-1" role="dialog" aria-labelledby="pilotModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -124,7 +113,6 @@
       </div>
     </div>
   </div>
-
   <!-- Impact -->
   <div class="modal fade impactModal" tabindex="-1" role="dialog" aria-labelledby="impactModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -139,25 +127,6 @@
     </div>
   </div>
   <!-- END THE BELOCAL PROCESS MODALS -->
-
-
-  <!-- PROGRAM DEVELOPMENT MODAL -->
-  <div class="modal fade programDevModal" tabindex="-1" role="dialog" aria-labelledby="programDevModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>A Short History Lesson</h1><br>
-          <p><span class="readText">BeLocal Group started working with Dr. Wright and the Chief Technology Officer of the Centre ValBio, Jesse McKinney, in the summer of 2016 to pilot the Process on Madagascar.  The first Discover expedition was conducted in January of 2017 by a combined student and CVB team.</span>  The data from that expedition is now being annotated and will be used as the initial training data set to develop more automated image search capabilities.  The second expedition is planned for April and the third for May of this year.  By July, we will have begun to define major challenge areas as well as initial problem formulations, in time for the start of Fall semester. </p><br>
-          <p>We have partnered with Stony Brook University to pilot our Process with their entire senior engineering class.  Every senior engineering student at Stony Brook University is required to do a full year project that requires researching, defining and innovating a solution to a true engineering problem.  Through this partnership the students will be able to innovate solutions to our challenges.  The top team will be funded to travel to Madagascar and work on the local pilot implementation of their innovations at the end of the school year in May 2018.</p><br>
-          <p>We are building relationships with organizations, like Acumen, who are motivated to invest in companies, leaders and ideas that are changing the way the world tackles poverty.  These companies can provide the leverage needed to insure that the BeLocal process can achieve self-sustaining impact by enabling local organizations to produce and distribute our solutions to their population.  By July of 2018, we will have piloted the BeLocal Process and expect to seek out philanthropic partnerships to expand BeLocal to other countries and universities.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END PROGRAM DEVELOPMENT MODAL -->
-
-
   <!-- ABOUT THE TEAM MODALS -->
   <!-- Jeff Nagel -->
   <div class="modal fade jeffNagelModal" tabindex="-1" role="dialog" aria-labelledby="jeffNagelModal">
@@ -174,7 +143,6 @@
       </div>
     </div>
   </div>
-
   <!-- Mickie Nagel -->
   <div class="modal fade mickieNagelModal" tabindex="-1" role="dialog" aria-labelledby="mickieNagelModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -189,7 +157,6 @@
       </div>
     </div>
   </div>
-
   <!-- Eric Bergerson -->
   <div class="modal fade ericBergersonModal" tabindex="-1" role="dialog" aria-labelledby="ericBergersonModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -204,7 +171,6 @@
       </div>
     </div>
   </div>
-
   <!-- Patricia Wright -->
   <div class="modal fade patriciaWrightModal" tabindex="-1" role="dialog" aria-labelledby="patriciaWrightModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -219,7 +185,6 @@
       </div>
     </div>
   </div>
-
   <!-- Jesse McKinney -->
   <div class="modal fade jesseMckinneyModal" tabindex="-1" role="dialog" aria-labelledby="jesseMckinneyModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -234,7 +199,6 @@
       </div>
     </div>
   </div>
-
   <!-- Peter Small -->
   <div class="modal fade peterSmallModal" tabindex="-1" role="dialog" aria-labelledby="peterSmallModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -250,7 +214,6 @@
       </div>
     </div>
   </div>
-
   <!-- Petar Djuric -->
   <div class="modal fade petarDjuricModal" tabindex="-1" role="dialog" aria-labelledby="petarDjuricModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -265,7 +228,6 @@
       </div>
     </div>
   </div>
-
   <!-- Rob Kukta -->
   <div class="modal fade robKuktaModal" tabindex="-1" role="dialog" aria-labelledby="robKuktaModal">
     <div class="modal-dialog modal-lg" role="document">
@@ -281,81 +243,38 @@
     </div>
   </div>
   <!-- END ABOUT THE TEAM MODALS -->
-
 <!-- ****** END MODALS ****** -->
-
   <div style="border-bottom: 3px solid #1371d6;" class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
     <h3 class="aboutSubText">We believe that great innovation starts with empathy for the people we serve.  Our process begins and ends with their input because our success is measured by their voluntary adoption of innovations that <span class="blue">improve their lives</span>.  We believe that agency matters and makes for the best long term changes.  BeLocal is ultimately about empowering people to make their own lives better.</h3>
     <!--<span class="btn" data-toggle="modal" data-target=".programDevModal">See More</span>-->
   </div>
-<!--
-  <div style="border-top: 3px solid #1371d6;" class="about-white-bg container text-center">
-    <h1 class="aboutMainHeading">Conventional Philanthropy</h1>
-    <h3 class="aboutSubText">Philanthropic methods have evolved over time to address a range of needs and increase effectiveness.  Direct contributions of goods and services are effective in serving immediate needs but are not self-sustaining and frequently have <span class="blue">unintended side effects</span> in removing agency.  Contributions of enabling resources and training can address an important range of needs for larger scale infrastructure (e.g. hospitals) and specialized expertise (e.g. agricultural techniques) but are again, not self-sustaining and can suffer some of the same issues around agency.</h3>
-    <span class="btn blue-btn" data-toggle="modal" data-target=".conventPhilanModal">Read More</span>
-  </div>
-
-  <div style="border-top: 3px solid #1371d6;" class="about-offwhite-bg container text-center">
-    <h1 class="aboutMainHeading">The BeLocal Difference</h1>
-    <h3 class="aboutSubText">BeLocal leverages four differentiated elements to achieve Impact.  The first and most important element is a focus on deep local data gathering. <span class="blue">Listen local</span>.  So often, well intentioned foreigners create solutions that are unworkable, cause collateral problems, or are not maintainable over time.  Effective problem solving requires deep context.</h3>
-    <span class="btn blue-btn" data-toggle="modal" data-target=".belocalDiffModal">Read More</span>
-  </div>
-
-  <div style="border-top: 3px solid #50BF41; border-bottom: 3px solid #50BF41;" class="about-white-bg container text-center">
-    <h1 class="aboutMainHeading">The BeLocal Process</h1>
-    <h3 style="color:#C5E1A5" class="aboutSubText process-heading">Discover</h3>
-      <p class="process-text">Engage directly with local population for insight and cultural context. Collect and annotate data-rich everyday life stories of the local population in video, audio and text.</p>
-      <span class="btn green-btn" data-toggle="modal" data-target=".discoverModal">Learn More</span>
-    <h3 style="color:#AED581" class="aboutSubText process-heading">Define</h3>
-      <p class="process-text">Crowd-source the identification of challenges described or observed in the collected data. Form problem statements that address the most compelling and greatest number of challenges.</p>
-      <span class="btn green-btn" data-toggle="modal" data-target=".defineModal">Learn More</span>
-    <h3 style="color:#8BC34A" class="aboutSubText process-heading">Innovate</h3>
-      <p class="process-text">Crowd-source solutions that fit the local situation and can be self-sustaining. Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
-      <span class="btn green-btn" data-toggle="modal" data-target=".innovateModal">Learn More</span>
-    <h3 style="color:#689F38" class="aboutSubText process-heading">Pilot</h3>
-      <p class="process-text">Test and refine solutions with the initial engaged population and beyond. Rank the solutions based on performance and degree of adoption.</p>
-      <span class="btn green-btn" data-toggle="modal" data-target=".pilotModal">Learn More</span>
-    <h3 style="color:#33691E" class="aboutSubText process-heading">Impact</h3>
-      <p class="process-text">Achieve self-sustaining impact by allowing local entrepreneurs or any willing organization to produce, market and distribute the solution to local population. Work with village resources to enable local manufacturing and production.</p>
-      <span class="btn green-btn" data-toggle="modal" data-target=".impactModal">Learn More</span>
-  </div>
--->
   <div class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
     <h1 class="aboutMainHeading">BeLocal Partnership</h1>
     <h3 class="aboutSubText">The BeLocal Group was formed at the beginning of 2017 in partnership with <span class="inline-modal green" data-toggle="modal" data-target=".patriciaWrightModal">Dr Patricia Wright</span> of Stony Brook University (SBU) and <span class="inline-modal green" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</span> of Centre ValBio.  We held our introductory kick-off session at Stony Brook in February of 2017 with a diverse interdisciplinary group of professors and students.  From that session, our advisory group was created and a plan put in place to launch the BeLocal Process with the SBU Senior Engineering Design classes in the Fall of 2018.  Our first major expedition is underway on Madagascar, to be completed in July.  The first Discover data set is being developed in parallel with the BeLocal Process web platform.  The process, platform, and suggested project areas will be presented to the Senior Design professors in August and the students in September.  The best projects will be selected for piloting on Madagascar in June of 2018.  Stay tuned!</h3>
-    <!--<span class="btn green-btn" data-toggle="modal" data-target=".programDevModal">Our History</span>-->
   </div>
-
   <div style="border-top: 3px solid #1371d6;" class="aboutTheTeam container text-center">
     <h1 class="aboutMainHeading">Meet The Team</h1>
-
     <h3 class="aboutSubText">BeLocal Group</h3>
     <div class="row">
       <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/jeffNagel.jpg" alt="Jeff Nagel" data-toggle="modal" data-target=".jeffNagelModal"><div class="caption inline-modal " data-toggle="modal" data-target=".jeffNagelModal">Jeff Nagel</div></div>
       <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/mickieNagel.jpg" alt="Mickie Nagel" data-toggle="modal" data-target=".mickieNagelModal"><div class="caption inline-modal " data-toggle="modal" data-target=".mickieNagelModal">Mickie Nagel</div></div>
       <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/ericBergerson.jpg" alt="Eric Bergerson" data-toggle="modal" data-target=".ericBergersonModal"><div class="caption inline-modal " data-toggle="modal" data-target=".ericBergersonModal">Eric Bergerson</div></div>
     </div>
-
       <h3 class="aboutSubText">Stony Brook University</h3>
       <div class="row">
         <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/patriciaWright.jpg" alt="Patricia Wright" data-toggle="modal" data-target=".patriciaWrightModal"><div class="caption inline-modal " data-toggle="modal" data-target=".patriciaWrightModal">Patricia Wright</div></div>
         <div class="col-xs-6"><img src="<?php bloginfo('template_url'); ?>/img/jesseMckinney.jpg" alt="Jesse McKinney" data-toggle="modal" data-target=".jesseMckinneyModal"><div class="caption inline-modal " data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</div></div>
       </div>
-
       <h3 class="aboutSubText">Advisory Council</h3>
       <div class="row">
         <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/peterSmall.jpg" alt="Peter Small" data-toggle="modal" data-target=".peterSmallModal"><div class="caption inline-modal " data-toggle="modal" data-target=".peterSmallModal">Peter Small</div></div>
         <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/petarDjuric.jpg" alt="Petar Djuric" data-toggle="modal" data-target=".petarDjuricModal"><div class="caption inline-modal " data-toggle="modal" data-target=".petarDjuricModal">Petar Djuric</div></div>
         <div class="col-xs-4"><img src="<?php bloginfo('template_url'); ?>/img/robKukta.jpg" alt="Rob Kukta" data-toggle="modal" data-target=".robKuktaModal"><div class="caption inline-modal " data-toggle="modal" data-target=".robKuktaModal">Rob Kukta</div></div>
       </div>
-
       <h3 class="aboutSubText">Contributors</h3>
       <div class="row">
         <div class="col-sm-12"><div class="caption"><a href="http://tjsalgado.com" target="_blank">TJ Salgado &mdash; Web Design</a></div></div>
       </div>
-
   </div>
-
 </div><!--./aboutPage -->
-
 <?php get_footer(); ?>

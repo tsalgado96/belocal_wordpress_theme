@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
   <div class="registration-page-wrap">
     <div class="container">
       <div class="blog-header">
@@ -16,5 +15,4 @@
         </div><!-- /.blog-main -->
     </div><!-- /.container -->
   </div>
-
 <?php get_footer(); ?>

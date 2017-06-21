@@ -1,6 +1,5 @@
 <?php /* Template Name: Login Page */ ?>
 <?php get_header(); ?>
-
   <div class="loginContainer">
       <div class="card card-container">
           <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
