@@ -24,11 +24,27 @@
   function blg_init_widgets($id){
     register_sidebar(array(
       'name'  => 'Sidebar',
-      'id'  => 'sidebar',
+      'id'    => 'sidebar',
       'before_widget'  => '<div class="sidebar-module">',
+      'after_widget'   => '</div>',
+      'before_title'   => '<h4>',
+      'after_title'    => '</h4>'
+    ));
+    register_sidebar(array(
+      'name'  => 'Contact Email Form',
+      'id'    => 'contact',
+      'before_widget' => '<div class="contactOptinForm">',
       'after_widget'  => '</div>',
-      'before_title'  => '<h4>',
-      'after_title'  => '</h4>'
+      'before_title'   => '<h2>',
+      'after_title'    => '</h2>'
+    ));
+    register_sidebar(array(
+      'name'  => 'Front Page Email Form',
+      'id'    => 'front',
+      'before_widget' => '<div class="frontOptinForm">',
+      'after_widget'  => '</div>',
+      'before_title'   => '<h2>',
+      'after_title'    => '</h2>'
     ));
   }
 

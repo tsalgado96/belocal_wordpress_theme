@@ -84,10 +84,7 @@
         ?>
     </div><!-- /.container-fluid -->
   </nav>
-
 <!-- ****** MODALS ****** -->
-
-
 <!-- THE BELOCAL PROCESS MODALS -->
 <!-- Discover -->
 <div class="modal fade discoverModal" tabindex="-1" role="dialog" aria-labelledby="discoverModal">
@@ -107,7 +104,6 @@
     </div>
   </div>
 </div>
-
 <!-- Define -->
 <div class="modal fade defineModal" tabindex="-1" role="dialog" aria-labelledby="defineModal">
   <div class="modal-dialog modal-lg" role="document">
@@ -132,7 +128,6 @@
     </div>
   </div>
 </div>
-
 <!-- Innovate -->
 <div class="modal fade innovateModal" tabindex="-1" role="dialog" aria-labelledby="innovateModal">
   <div class="modal-dialog modal-lg" role="document">
@@ -149,7 +144,6 @@
     </div>
   </div>
 </div>
-
 <!-- Pilot -->
 <div class="modal fade pilotModal" tabindex="-1" role="dialog" aria-labelledby="pilotModal">
   <div class="modal-dialog modal-lg" role="document">
@@ -167,7 +161,6 @@
     </div>
   </div>
 </div>
-
 <!-- Impact -->
 <div class="modal fade impactModal" tabindex="-1" role="dialog" aria-labelledby="impactModal">
   <div class="modal-dialog modal-lg" role="document">
@@ -182,49 +175,28 @@
   </div>
 </div>
 <!-- END THE BELOCAL PROCESS MODALS -->
-
-
 <!-- ****** END MODALS ****** -->
-
   <div id="landingContainer" class="container-fluid">
     <div class="jumbotron text-center">
       <img src="<?php bloginfo('template_url'); ?>/img/blgHero.svg" alt="BeLocal Group Logo">
-      <!--
-      <h1><span class="whiteBorder"><?php echo get_theme_mod('showcase_heading', 'BeLocal Group'); ?></span></h1>
-      <h2><?php echo get_theme_mod('showcase_text', 'Listen Local. Leverage Global.'); ?></h2>
-    -->
     </div>
   </div>
-
   <section id="work" class="container-fluid text-center">
     <div class="maxContainer">
       <h1>Our Work</h1>
       <h3>The BeLocal Group was created to provide developing countries the power to leverage global crowd-sourced innovation to solve their everyday quality of life challenges.</h3>
-<!--
-      <h2>The Secret Recipe</h2>
-      <p>Local Engagement + Everyday Challenges + Crowd-sourced Innovation
-        + Market Incentives</p>
-      <h2>The Result</h2>
-      <p>Relevant, practical, and innovative solutions with built in market demand.</p>
-      <h2>How We Do It</h2>
-      <p>We boast an interdisciplinary skillset, ranging from engineering and design
-        to marketing and business.</p>
--->
     </div>
   </section>
-
   <section style="border-top: 3px solid #50BF41;" id="work" class="about-offwhite-bg container-fluid text-center">
     <div class="maxContainer">
       <h1>Why BeLocal</h1>
       <h3>The developing world faces many everyday challenges where innovation could help, but they lack access to experienced innovators.  At the same time, there are many creative innovators all over the world who would like to help, but don’t have access to local problems.  BeLocal provides the right connection.</h3>
     </div>
   </section>
-
   <div id="initiativesHome" class="container-fluid content text-center">
     <h1>Current Initiative</h1>
     <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
   </div>
-
   <section id="process" class="container-fluid text-center">
     <div class="maxContainer">
       <h1>The BeLocal Process</h1>
@@ -247,91 +219,19 @@
         Work with village resources to enable local manufacturing and production.</p>
     </div>
   </section>
-
   <div id="opportunities" class="container-fluid content text-center">
     <div class="maxContainer">
       <h1><?php echo get_theme_mod('join_heading', 'Join Our Team'); ?></h1>
       <p><?php echo get_theme_mod('join_text', 'BeLocal Group'); ?></p>
-
       <?php
-        //response generation function
-        $response = "";
-        //function to generate response
-        function my_contact_form_generate_response($type, $message){
-          global $response;
-          if($type == "success") {
-            $response = "<div class='success'>{$message}</div>";
-          }
-          else $response = "<div class='error'>{$message}</div>";
-        }
-        //response messages
-        $missing_content = "Name Invalid.";
-        $email_invalid   = "Email Address Invalid.";
-        $message_unsent  = "Email not recorded. Try Again.";
-        $message_sent    = "Thanks! Your email has been recorded.";
-
-        //user posted variables
-        $name = $_POST['contactName'];
-        $email = $_POST['contactEmail'];
-        $message = 'This is a test';
-
-        //php mailer variables
-        $to = 'tsalgado96@gmail.com';
-        $subject = "BeLocal Group Contact Form";
-        $headers = 'From: '. $email . "\r\n" .
-          'Reply-To: ' . $email . "\r\n";
-
-        if($_POST['submit']){
-          //validate email
-          if (!$_POST['submitted']) {
-            my_contact_form_generate_response("error", $missing_content);
-          }
-          else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-            my_contact_form_generate_response("error", $email_invalid);
-          }
-          else //email is valid
-          {
-            //validate presence of name and message
-            if(empty($name)){
-              my_contact_form_generate_response("error", $missing_content);
-            }
-            else //ready to go!
-            {
-              $sent = wp_mail($to, $subject, strip_tags($message), $headers);
-              if($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
-              else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
-            }
-          }
-
-
+        if (is_active_sidebar('front')){
+            dynamic_sidebar('front');
         }
       ?>
-
-
-          <form class="optinForm" action="#opportunities" method="post">
-            <div class="row">
-              <div class="col-sm-6">
-                <input class="regInput" type="text" name="contactName" id="contactName" value="<?php echo esc_attr($_POST['contactName']) ?>" placeholder="Name*">
-                <?php if(empty($name) && filter_var($email, FILTER_VALIDATE_EMAIL)){ echo $response; } ?>
-              </div>
-
-              <div class="col-sm-6">
-                <input class="regInput" type="text" name="contactEmail" id="email" value="<?php echo esc_attr($_POST['contactEmail']) ?>" placeholder="Email*">
-                <?php if(!filter_var($email, FILTER_VALIDATE_EMAIL)){ echo $response; } ?>
-              </div>
-            </div>
-            <br>
-            <input type="hidden" name="submitted" value="1">
-            <input class="submit" type="submit" name="submit" value="Sign Up">
-            <?php if($sent == true){ echo $response;} ?>
-          </form>
-
-
-      <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>" class="btn"><?php echo get_theme_mod('join_btn', 'Get Started'); ?></a>-->
+      <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Contact' ) ) ); ?>" class="btn"><?php echo get_theme_mod('join_btn', 'Get Started'); ?></a>-->
       <br>
       <a href="https://www.facebook.com/groups/belocalgroup/" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
       <a href="https://www.instagram.com/belocalgroup/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
     </div>
   </div>
-
 <?php get_footer(); ?>
