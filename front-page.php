@@ -201,22 +201,27 @@
     <div class="maxContainer">
       <h1>The BeLocal Process</h1>
       <h3>We work through a structured, web-based process for innovation that begins with listening to the local needs and understanding local cultural requirements.</h3>
-      <h2><span class="green1 inline-modal" data-toggle="modal" data-target=".discoverModal">Discover</span></h2>
+      <h2><span class="green1" >Discover</span></h2>
       <p>Collect and annotate data-rich everyday life stories of the local population in video,
         audio and text. Engage directly with local population for insight and cultural context.</p>
-      <h2><span class="green2 inline-modal" data-toggle="modal" data-target=".defineModal">Define</span></h2>
+      <button class="btn" type="button" name="button" data-toggle="modal" data-target=".discoverModal">Learn More</button>
+      <h2><span class="green2">Define</span></h2>
       <p>Crowd-source the identification of challenges described or observed in the collected data.
         Form problem statements that address the most compelling and greatest number of challenges.</p>
-      <h2><span class="green3 inline-modal" data-toggle="modal" data-target=".innovateModal">Innovate</span></h2>
+        <button class="btn" type="button" name="button" data-toggle="modal" data-target=".defineModal">Learn More</button>
+      <h2><span class="green3">Innovate</span></h2>
       <p>Crowd-source solutions that fit the local situation and can be self-sustaining.
         Satisfy local needs for performance, cost, materials, infrastructure, maintenance, environment, and culture.</p>
-      <h2><span class="green4 inline-modal" data-toggle="modal" data-target=".pilotModal">Pilot</span></h2>
+        <button class="btn" type="button" name="button" data-toggle="modal" data-target=".innovateModal">Learn More</button>
+      <h2><span class="green4">Pilot</span></h2>
       <p>Test and refine solutions with the initial engaged population and beyond.
         Rank the solutions based on performance and degree of adoption.</p>
-      <h2><span class="green5 inline-modal" data-toggle="modal" data-target=".impactModal">Impact</span></h2>
+        <button class="btn" type="button" name="button" data-toggle="modal" data-target=".pilotModal">Learn More</button>
+      <h2><span class="green5">Impact</span></h2>
       <p>Achieve self-sustaining impact by allowing local entrepreneurs or any willing
         organization to produce, market, and distribute the solution to local population.
         Work with village resources to enable local manufacturing and production.</p>
+        <button class="btn" type="button" name="button" data-toggle="modal" data-target=".impactModal">Learn More</button>
     </div>
   </section>
   <div id="opportunities" class="container-fluid content text-center">

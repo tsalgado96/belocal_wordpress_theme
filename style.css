@@ -353,6 +353,20 @@ footer .footer-nav .menu-footer-navigation li {
   font-size: 1.2em;
   color: #787878;
 }
+
+#process button.btn {
+  background-color: transparent;
+  border: 1px solid #50BF41;
+  margin-bottom: 25px;
+  color: #50BF41;
+  width: 135px;
+  transition: background-color 0.2s, border 0.2s, width 0.1s;
+  border-radius: 0;
+}
+#process button.btn:hover {
+  background-color: #50BF41;
+  color: #ffffff;
+}
 /*--------------------------------------------------------------
 2.5 - Opportunities
 --------------------------------------------------------------*/
