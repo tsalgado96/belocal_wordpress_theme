@@ -28,33 +28,33 @@
       'priority'  => 1
     )));
 
-    //*******************************************
-    //Showcase Heading
-    //*******************************************
-    $wp_customize->add_setting('showcase_heading', array(
-      'default'  => _x('BeLocal Group', 'belocal'),
-      'type'  => 'theme_mod'
-    ));
+    // // *******************************************
+    // // Showcase Heading
+    // // *******************************************
+    // $wp_customize->add_setting('showcase_heading', array(
+    //   'default'  => _x('BeLocal Group', 'belocal'),
+    //   'type'  => 'theme_mod'
+    // ));
+    //
+    // $wp_customize->add_control('showcase_heading', array(
+    //   'label'  => __('Heading', 'belocal'),
+    //   'section'  => 'showcase',
+    //   'priority'  => 2
+    // ));
 
-    $wp_customize->add_control('showcase_heading', array(
-      'label'  => __('Heading', 'belocal'),
-      'section'  => 'showcase',
-      'priority'  => 2
-    ));
-
-    //*******************************************
-    //Showcase Subheading
-    //*******************************************
-    $wp_customize->add_setting('showcase_text', array(
-      'default'  => _x('Listen Local. Leverage Global.', 'belocal'),
-      'type'  => 'theme_mod'
-    ));
-
-    $wp_customize->add_control('showcase_text', array(
-      'label'  => __('Text', 'belocal'),
-      'section'  => 'showcase',
-      'priority'  => 3
-    ));
+    // //*******************************************
+    // //Showcase Subheading
+    // //*******************************************
+    // $wp_customize->add_setting('showcase_text', array(
+    //   'default'  => _x('Listen Local. Leverage Global.', 'belocal'),
+    //   'type'  => 'theme_mod'
+    // ));
+    //
+    // $wp_customize->add_control('showcase_text', array(
+    //   'label'  => __('Text', 'belocal'),
+    //   'section'  => 'showcase',
+    //   'priority'  => 3
+    // ));
 
     //*******************************************
     //Current Initiative Image
@@ -84,6 +84,254 @@
       'section'  => 'showcase',
       'priority'  => 5
     ));
+
+    //*******************************************
+    //BeLocal Process Heading
+    //*******************************************
+    $wp_customize->add_setting('process_heading', array(
+      'default'  => _x('The BeLocal Process', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_heading', array(
+      'label'  => __('Process Heading', 'belocal'),
+      'section'  => 'showcase',
+      'priority'  => 5
+    ));
+
+    //*******************************************
+    //BeLocal Process Subheading
+    //*******************************************
+    $wp_customize->add_setting('process_subheading', array(
+      'default'  => _x('The BeLocal Process Subheading', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_subheading', array(
+      'label'  => __('Process Subheading', 'belocal'),
+      'section'  => 'showcase',
+      'type'     => 'textarea',
+      'priority'  => 5
+    ));
+
+    //*******************************************
+    //BeLocal Process Phase 1 Heading
+    //*******************************************
+    $wp_customize->add_setting('process_phase1Heading', array(
+      'default'  => _x('Discover', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase1Heading', array(
+      'label'  => __('Phase 1 Heading', 'belocal'),
+      'section'  => 'showcase',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 1 Subheading
+    //*******************************************
+    $wp_customize->add_setting('process_phase1Subheading', array(
+      'default'  => _x('Phase 1 Subheading', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase1Subheading', array(
+      'label'  => __('Phase 1 Subheading', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 1 Modal
+    //*******************************************
+    $wp_customize->add_setting('process_phase1Modal', array(
+      'default'  => _x('Phase 1 Popup', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase1Modal', array(
+      'label'  => __('Phase 1 Popup Text', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+
+
+    //*******************************************
+    //BeLocal Process Phase 2 Heading
+    //*******************************************
+    $wp_customize->add_setting('process_phase2Heading', array(
+      'default'  => _x('Define', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase2Heading', array(
+      'label'  => __('Phase 2 Heading', 'belocal'),
+      'section'  => 'showcase',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 2 Subheading
+    //*******************************************
+    $wp_customize->add_setting('process_phase2Subheading', array(
+      'default'  => _x('Phase 2 Subheading', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase2Subheading', array(
+      'label'  => __('Phase 2 Subheading', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 2 Modal
+    //*******************************************
+    $wp_customize->add_setting('process_phase2Modal', array(
+      'default'  => _x('Phase 2 Popup', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase2Modal', array(
+      'label'  => __('Phase 2 Popup Text', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+
+
+
+    //*******************************************
+    //BeLocal Process Phase 3 Heading
+    //*******************************************
+    $wp_customize->add_setting('process_phase3Heading', array(
+      'default'  => _x('Innovate', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase3Heading', array(
+      'label'  => __('Phase 3 Heading', 'belocal'),
+      'section'  => 'showcase',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 3 Subheading
+    //*******************************************
+    $wp_customize->add_setting('process_phase3Subheading', array(
+      'default'  => _x('Phase 3 Subheading', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase3Subheading', array(
+      'label'  => __('Phase 3 Subheading', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 3 Modal
+    //*******************************************
+    $wp_customize->add_setting('process_phase3Modal', array(
+      'default'  => _x('Phase 3 Popup', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase3Modal', array(
+      'label'  => __('Phase 3 Popup Text', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+
+
+
+    //*******************************************
+    //BeLocal Process Phase 4 Heading
+    //*******************************************
+    $wp_customize->add_setting('process_phase4Heading', array(
+      'default'  => _x('Pilot', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase4Heading', array(
+      'label'  => __('Phase 4 Heading', 'belocal'),
+      'section'  => 'showcase',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 4 Subheading
+    //*******************************************
+    $wp_customize->add_setting('process_phase4Subheading', array(
+      'default'  => _x('Phase 4 Subheading', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase4Subheading', array(
+      'label'  => __('Phase 4 Subheading', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 4 Modal
+    //*******************************************
+    $wp_customize->add_setting('process_phase4Modal', array(
+      'default'  => _x('Phase 4 Popup', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase4Modal', array(
+      'label'  => __('Phase 4 Popup Text', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+
+
+
+    //*******************************************
+    //BeLocal Process Phase 5 Heading
+    //*******************************************
+    $wp_customize->add_setting('process_phase5Heading', array(
+      'default'  => _x('Impact', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase5Heading', array(
+      'label'  => __('Phase 5 Heading', 'belocal'),
+      'section'  => 'showcase',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 5 Subheading
+    //*******************************************
+    $wp_customize->add_setting('process_phase5Subheading', array(
+      'default'  => _x('Phase 5 Subheading', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase5Subheading', array(
+      'label'  => __('Phase 5 Subheading', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+    //*******************************************
+    //BeLocal Process Phase 5 Modal
+    //*******************************************
+    $wp_customize->add_setting('process_phase5Modal', array(
+      'default'  => _x('Phase 5 Popup', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('process_phase5Modal', array(
+      'label'  => __('Phase 5 Popup Text', 'belocal'),
+      'section'  => 'showcase',
+      'type'   => 'textarea',
+      'priority'  => 5
+    ));
+
+
 
     //*******************************************
     //Join Team Image
@@ -129,19 +377,19 @@
       'priority'  => 8
     ));
 
-    //*******************************************
-    //Join Team Button Text
-    //*******************************************
-    $wp_customize->add_setting('join_btn', array(
-      'default'  => _x('Get Started', 'belocal'),
-      'type'  => 'theme_mod'
-    ));
-
-    $wp_customize->add_control('join_btn', array(
-      'label'  => __('Button', 'belocal'),
-      'section'  => 'showcase',
-      'priority'  => 9
-    ));
+    // //*******************************************
+    // //Join Team Button Text
+    // //*******************************************
+    // $wp_customize->add_setting('join_btn', array(
+    //   'default'  => _x('Get Started', 'belocal'),
+    //   'type'  => 'theme_mod'
+    // ));
+    //
+    // $wp_customize->add_control('join_btn', array(
+    //   'label'  => __('Button', 'belocal'),
+    //   'section'  => 'showcase',
+    //   'priority'  => 9
+    // ));
 
     //*******************************************
     //Community Heading
