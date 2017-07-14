@@ -7,11 +7,6 @@
       'priority'  => 130
     ));
 
-    $wp_customize->add_section('community',array(
-      'title'  => __('Community Page', 'belocal'),
-      'descripton'  => sprintf(__('Options for showcase', 'belocal')),
-      'priority'  => 130
-    ));
 
     //*******************************************
     //Showcase Image
@@ -28,34 +23,6 @@
       'priority'  => 1
     )));
 
-    // // *******************************************
-    // // Showcase Heading
-    // // *******************************************
-    // $wp_customize->add_setting('showcase_heading', array(
-    //   'default'  => _x('BeLocal Group', 'belocal'),
-    //   'type'  => 'theme_mod'
-    // ));
-    //
-    // $wp_customize->add_control('showcase_heading', array(
-    //   'label'  => __('Heading', 'belocal'),
-    //   'section'  => 'showcase',
-    //   'priority'  => 2
-    // ));
-
-    // //*******************************************
-    // //Showcase Subheading
-    // //*******************************************
-    // $wp_customize->add_setting('showcase_text', array(
-    //   'default'  => _x('Listen Local. Leverage Global.', 'belocal'),
-    //   'type'  => 'theme_mod'
-    // ));
-    //
-    // $wp_customize->add_control('showcase_text', array(
-    //   'label'  => __('Text', 'belocal'),
-    //   'section'  => 'showcase',
-    //   'priority'  => 3
-    // ));
-
     //*******************************************
     //Current Initiative Image
     //*******************************************
@@ -70,7 +37,6 @@
       'settings'  => 'initiative_image',
       'priority'  => 4
     )));
-
     //*******************************************
     //Current Initiative Heading
     //*******************************************
@@ -85,6 +51,8 @@
       'priority'  => 5
     ));
 
+
+
     //*******************************************
     //BeLocal Process Heading
     //*******************************************
@@ -98,7 +66,6 @@
       'section'  => 'showcase',
       'priority'  => 5
     ));
-
     //*******************************************
     //BeLocal Process Subheading
     //*******************************************
@@ -113,6 +80,8 @@
       'type'     => 'textarea',
       'priority'  => 5
     ));
+
+
 
     //*******************************************
     //BeLocal Process Phase 1 Heading
@@ -391,62 +360,6 @@
     //   'priority'  => 9
     // ));
 
-    //*******************************************
-    //Community Heading
-    //*******************************************
-    $wp_customize->add_setting('community_heading', array(
-      'default'  => _x('Community', 'belocal'),
-      'type'  => 'theme_mod'
-    ));
-
-    $wp_customize->add_control('community_heading', array(
-      'label'  => __('Heading', 'belocal'),
-      'section'  => 'community',
-      'priority'  => 1
-    ));
-
-    //*******************************************
-    //Community Subheading
-    //*******************************************
-    $wp_customize->add_setting('community_subheading', array(
-      'default'  => _x('Active Projects.', 'belocal'),
-      'type'  => 'theme_mod'
-    ));
-
-    $wp_customize->add_control('community_subheading', array(
-      'label'  => __('Subheading', 'belocal'),
-      'section'  => 'community',
-      'priority'  => 2
-    ));
-
-    //*******************************************
-    //Community Sidebar Heading
-    //*******************************************
-    $wp_customize->add_setting('community_sidebar_heading', array(
-      'default'  => _x('About', 'belocal'),
-      'type'  => 'theme_mod'
-    ));
-
-    $wp_customize->add_control('community_sidebar_heading', array(
-      'label'  => __('Sidebar Heading', 'belocal'),
-      'section'  => 'community',
-      'priority'  => 3
-    ));
-
-    //*******************************************
-    //Community Sidebar Text
-    //*******************************************
-    $wp_customize->add_setting('community_sidebar_text', array(
-      'default'  => _x('Lorem Ipsum Dolores', 'belocal'),
-      'type'  => 'theme_mod'
-    ));
-
-    $wp_customize->add_control('community_sidebar_text', array(
-      'label'  => __('Sidebar Description', 'belocal'),
-      'section'  => 'community',
-      'type'  => 'textarea',
-      'priority'  => 4
-    ));
   }
 
   add_action('customize_register', 'blg_customize_register');
