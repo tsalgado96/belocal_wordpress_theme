@@ -1,6 +1,6 @@
 <?php /* Template Name: About Page */ ?>
 <?php get_header(); ?>
-<style>
+<style media="screen">
   #aboutHeroImage{
     background-image: url(<?php echo get_theme_mod('about_image', get_bloginfo('template_url').'/img/showcase.jpg'); ?>);
   }
@@ -8,7 +8,7 @@
 <div id="aboutHeroImage">
   <div class="container-fluid aboutOverlay">
     <div class="aboutHero">
-      <h1 class="aboutHeroHeading"><span class="whiteBorder">About Us</span></h1>
+      <h1 class="aboutHeroHeading"><span class="whiteBorder"><?php echo get_theme_mod('about_hero_text', 'About Hero Text'); ?></span></h1>
     </div>
   </div>
 </div>
@@ -132,11 +132,12 @@
   <!-- END ABOUT THE TEAM MODALS -->
 <!-- ****** END MODALS ****** -->
   <div style="border-bottom: 3px solid #1371d6;" class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
-    <h3 class="aboutSubText">We believe that great innovation starts with empathy for the people we serve.  Our process begins and ends with their input because our success is measured by their voluntary adoption of innovations that <span class="blue">improve their lives</span>.  We believe that agency matters and makes for the best long term changes.  BeLocal is ultimately about empowering people to make their own lives better.</h3>
+    <h1 class="aboutMainHeading"><?php echo get_theme_mod('about_statement_heading', 'About Statement Heading'); ?></h1>
+    <h3 class="aboutSubText"><?php echo get_theme_mod('about_statement_subtext', 'About Statement Subtext'); ?></h3>
   </div>
   <div class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
-    <h1 class="aboutMainHeading">BeLocal Partnership</h1>
-    <h3 class="aboutSubText">The BeLocal Group was formed at the beginning of 2017 in partnership with <span class="inline-modal green" data-toggle="modal" data-target=".patriciaWrightModal">Dr Patricia Wright</span> of Stony Brook University (SBU) and <span class="inline-modal green" data-toggle="modal" data-target=".jesseMckinneyModal">Jesse McKinney</span> of Centre ValBio.  We held our introductory kick-off session at Stony Brook in February of 2017 with a diverse interdisciplinary group of professors and students.  From that session, our advisory group was created and a plan put in place to launch the BeLocal Process with the SBU Senior Engineering Design classes in the Fall of 2018.  Our first major expedition is underway on Madagascar, to be completed in July.  The first Discover data set is being developed in parallel with the BeLocal Process web platform.  The process, platform, and suggested project areas will be presented to the Senior Design professors in August and the students in September.  The best projects will be selected for piloting on Madagascar in June of 2018.  Stay tuned!</h3>
+    <h1 class="aboutMainHeading"><?php echo get_theme_mod('about_partnership_heading', 'About Partnership Heading'); ?></h1>
+    <h3 class="aboutSubText"><?php echo get_theme_mod('about_partnership_subtext', 'About Partnership Subtext'); ?></h3>
   </div>
   <div style="border-top: 3px solid #1371d6;" class="aboutTheTeam container text-center">
     <h1 class="aboutMainHeading">Meet The Team</h1>

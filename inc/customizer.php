@@ -381,6 +381,79 @@
       'priority'  => 1
     )));
 
+    //*******************************************
+    //About Hero Text
+    //*******************************************
+    $wp_customize->add_setting('about_hero_text', array(
+      'default'  => _x('About Us', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('about_hero_text', array(
+      'label'  => __('Page Heading', 'belocal'),
+      'section'  => 'about',
+      'priority'  => 8
+    ));
+
+    //*******************************************
+    //About Mission Statement Heading
+    //*******************************************
+    $wp_customize->add_setting('about_statement_heading', array(
+      'default'  => _x('Mission Statement', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('about_statement_heading', array(
+      'label'  => __('Statement Heading', 'belocal'),
+      'section'  => 'about',
+      'priority'  => 8
+    ));
+    //*******************************************
+    //About Mission Statement Subtext
+    //*******************************************
+    $wp_customize->add_setting('about_statement_subtext', array(
+      'default'  => _x('Default description', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('about_statement_subtext', array(
+      'label'  => __('Statement Subtext', 'belocal'),
+      'section'  => 'about',
+      'type'  => 'textarea',
+      'priority'  => 8
+    ));
+
+
+
+
+    //*******************************************
+    //About Partnership Heading
+    //*******************************************
+    $wp_customize->add_setting('about_partnership_heading', array(
+      'default'  => _x('BeLocal Partnership', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('about_partnership_heading', array(
+      'label'  => __('Partnership Heading', 'belocal'),
+      'section'  => 'about',
+      'priority'  => 8
+    ));
+    //*******************************************
+    //About Partnership Subtext
+    //*******************************************
+    $wp_customize->add_setting('about_partnership_subtext', array(
+      'default'  => _x('Default description', 'belocal'),
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('about_partnership_subtext', array(
+      'label'  => __('Partnership Subtext', 'belocal'),
+      'section'  => 'about',
+      'type'  => 'textarea',
+      'priority'  => 8
+    ));
+
 
   }
 
