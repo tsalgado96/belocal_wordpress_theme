@@ -1,5 +1,10 @@
 <?php /* Template Name: About Page */ ?>
 <?php get_header(); ?>
+<style>
+  #aboutHeroImage{
+    background-image: url(<?php echo get_theme_mod('about_image', get_bloginfo('template_url').'/img/showcase.jpg'); ?>);
+  }
+</style>
 <div id="aboutHeroImage">
   <div class="container-fluid aboutOverlay">
     <div class="aboutHero">
@@ -9,124 +14,6 @@
 </div>
 <div class="aboutPage">
 <!-- ****** MODALS ****** -->
-  <!-- CONVENTIONAL PHILANTHROPY MODAL -->
-  <div class="modal fade conventPhilanModal" tabindex="-1" role="dialog" aria-labelledby="conventPhilanModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>Conventional Philanthropy</h1>
-          <p><span class="readText">Philanthropic methods have evolved over time to address a range of needs and increase effectiveness.  Direct contributions of goods and services are effective in serving immediate needs but are not self-sustaining and frequently have unintended side effects in removing agency.  Contributions of enabling resources and training can address an important range of needs for larger scale infrastructure (e.g. hospitals) and specialized expertise (e.g. agricultural techniques) but are again not self-sustaining and can suffer some of the same issues around agency.</span>  More recent efforts aim at Impact Investing by leveraging market-based models to enable local economic growth, such as micro-lending (Grameen Bank) and patient venture capital (Acumen). This final path has the ultimate advantage of self-sufficiency but is limited by the pace with which good local entrepreneurs can be developed and impactful solutions with a high probability of successful adoption can be identified. The BeLocal Process adds value by providing a pipeline of solutions, sourced and validated by the local population, insuring high adoption and sustainable impact. This pipeline of solutions is filled by leveraging a global crowd-sourced process of reproducible innovation to challenges discovered and tested in partnership with the local population being served.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END CONVENTIONAL PHILANTHROPY MODAL -->
-  <!-- THE BELOCAL DIFFERENCE MODAL -->
-  <div class="modal fade belocalDiffModal" tabindex="-1" role="dialog" aria-labelledby="belocalDiffModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>The BeLocal Difference</h1>
-          <p><span class="readText">BeLocal leverages four differentiated elements to achieve Impact.  The first and most important element is a focus on deep local data gathering. Listen local.  So often, well intentioned foreigners create solutions that are unworkable, cause collateral problems, or are not maintainable over time.  Effective problem solving requires deep context.</span>  The second unique element to BeLocal is a focus on everyday quality of life problems.  Large organizations and governments take on big complex problems, but routine local challenges are not systematically addressed.  The challenges themselves can be fundamental &mdash; food security, clean water, transportation etc &mdash; but the solutions are principally built and implemented through local communities.  The third unique element is the leveraging of crowd-sourced innovation to solve the everyday problems. Leverage global. Through the web, we have the opportunity to involve millions of creative minds all over the world in an effort to innovatively address these challenges.  The key is creating a process that effectively bridges the gap between deep local data and the remote decentralized crowd of innovators.  The final unique element is a focus on self-sufficiency.  The innovations produced by BeLocal will intrinsically come out of the process with proven consumer demand and documentation on how they can be implemented locally.  BeLocal will provide a pipeline of solutions to Impact Investing NGO&rsquo;s to put these innovations in the hands of local entrepreneurs to build businesses.  We will also work with local communities that seek to cooperatively produce innovations themselves,  The key is to find Impact paths that are long term self-sustaining.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END THE BELOCAL DIFFERENCE MODAL -->
-  <!-- THE BELOCAL PROCESS MODALS -->
-  <!-- Discover -->
-  <div class="modal fade discoverModal" tabindex="-1" role="dialog" aria-labelledby="discoverModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal ">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>Discover</h1>
-          <p>The Discover step is all about gathering the kind of data needed to enable relevant, effective innovation.  An innovator solving a problem at home has a tremendous amount of critical information readily available.  She knows the culture, the way things are done, the infrastructure, the economy, the supply of local labor, local materials etc.  She often has direct experience with the problem being addressed or is surrounded by people who may and can provide insight and feedback through the process.  An innovator draws on all of this knowledge to develop an effective solution.  Now imagine losing all that information but still being asked to create a relevant, effective solution.  Really hard.  So the first step in the BeLocal Process is to Discover the data needed to bridge the gap between local challenges and global innovators.</p>
-          <br>
-          <p>During the Discover step enough data is collected to provide a remote innovator a virtual understanding of the local culture and environment of those trying to be served as if it was her own.  This is accomplished through well understood anthropological and ethnographic methodologies enhanced by modern technology.  Video and other multimedia technologies are used to capture what is said and observed while talking to, working alongside and observing the environment of the local population.</p>
-          <br>
-          <p>Video is taken about all aspects of village life, from culture and environment to food production, transportation, housing, healthcare and more.  This video is annotated for additional context and searchability.  At the same time, interviews are conducted to understand villager thoughts about local challenges, cultural sensitivities, and ideas for improvement.  This primary data is supplemented with a wide range of public information on the local culture, demographics, economy, health, climate, infrastructure, material availability and tool availability.  During the later Innovate step, specific physical measurements (e.g., size of a wheel, distance from A to B, etc) may be taken in support of particular projects.  All of this data is centrally stored and organized to be easily accessible during all of the subsequent steps to support Definition, Innovation and Impact.</p>
-          <br>
-          <p>The discovery process is built on a foundation of trust with the villagers with a goal to transfer the agency of change to the local population,  This goal is achieved by working with NGO&rsquo;s that are deeply connected to the local villages they work with.  The initial BeLocal effort is in partnership with Dr Pat Wright and the Centre Val Bio research station in Madagascar.  Dr. Wright has worked in Madagascar for over 30 years.  Through her work with lemurs, she has made tremendous contributions to conservation.  At the same time, she has built deep trusting relationships with the 60 villages on Madagascar where the initial BeLocal Process efforts are taking place.  The trust Dr Wright and her team have built is fundamental to the success of the Discover step (and subsequent Pilot and Impact steps as well).</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Define -->
-  <div class="modal fade defineModal" tabindex="-1" role="dialog" aria-labelledby="defineModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal ">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>Define</h1>
-          <p>Currently, innovation in the developing world requires extensive travel and a significant commitment of time to remain in residence to truly understand the challenges faced by those one hopes to serve.  The BeLocal Process removes this obstacle to innovation by leveraging technology to distribute the data captured during the Discover phase to a global set of potential innovators.  This allows for significantly more people to be involved with helping solve challenges in the developing world.  The participation of these remote innovators begins with this Define step in which critical thinkers begin to identify common challenges described or observed in the data captured so far.</p>
-          <br>
-          <p>Traditional philanthropic processes typically focus on a pre-identified problem that they wish to address.  The distribution of mosquito netting, providing dairy cows to villages, and building wells to provide safe drinking water are all worthy goals.  However, these organizations are a solution looking for people who have a problem they can address.  The BeLocal Process drives the agency of change from those being served forward, identifying the reported or observed challenges and discovering which problems best need to be addressed.</p>
-          <br>
-          <p>The most challenging part of innovation is normally not the creative process itself.  The tough part is in clearly recognizing an unmet need and stating the problem in a new way that points to the novel solution.  A clear problem statement is a great way to unlock creativity.  In the second step of the BeLocal Process, Critical thinkers participating in the process define Challenges by analyzing the data and annotations already collected and piecing together obstacles to everyday life that are either reported or observed in the data.  These or other participants in the Process can then hypothesize structured Problems that can address one or more challenges.  These Problems statements are then passed on to the Innovate step for resolution.</p>
-          <br>
-          <p>For example, the data might illustrate people carrying lots of heavy harvested goods by hand from the fields to the town.  The annotated data might note people carrying heavy loads, the poor condition of various paths and roads, and the fact that few if any villagers are wearing shoes.  They may note there are a few wheeled carts, but that they are poorly built and in need of good wheels.  The village elders may have said their largest obstacle is in getting food back to the village at harvest time; all observed data and annotation.</p>
-          <br>
-          <p>The BeLocal Process participants define Challenges by tying together different parts of the data and annotation.  Based on the example data above, one Challenge may be that the roads are uneven and difficult to traverse, backed up by both the observed data and possibly complaints during interviews.  Another Challenge may be that there are insufficient modes of transportation, such as proper carts with good wheels that can easily travel over the poorly maintained roads.  Another Challenge may be that it is difficult to carry a heavy load on unpaved roads without shoes.  The difficulty in staying parasite free when walking around without shoes may be another Challenge.  Four different observed challenges, some overlapping a higher-order reported Challenge that food simply takes too long to get back to town.</p>
-          <br>
-          <p>A Problem hypothesizes how a group of challenges can be addressed by a specific potential solution.  It does so in a formal way, referring to the defined challenges and demonstrating how each would be addressed.  It includes both global constraints placed on the process by BeLocal, such as cost limitations, local materials available, impact studies limiting certain potential conflicts.  It also can contain constraints the participant identifies as well.  It must include a detailed methodology for testing the solution, both remotely and locally piloted.  Most importantly, it must include a measure of performance to indicate the degree to which the solution meets its goals.</p>
-          <br>
-          <p>Continuing our example, a Problem could make the conjecture that building a better cart would address the Challenges of moving the harvest over poor roads, make it easier to transport food when barefoot, and allow more food to be moved at once .  An alternative Problem definition might contain a hypothesis proffering that building strong shoes from local material combined with parts of discarded tires will both allow the carriers and cart pullers to move much quicker over the poorly maintained roads while protecting them from the parasites one gets from walking barefoot.  Each problem definition, to be considered complete, would have to have all of the parts described above, but those ideas can come from one or more participants collaborating together.  The two example Problems each address a different combination of defined Challenges and when finished provide the methodology for testing and measuring their success, allowing them to be compared as to their relative effectiveness.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Innovate -->
-  <div class="modal fade innovateModal" tabindex="-1" role="dialog" aria-labelledby="innovateModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal ">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>Innovate</h1>
-          <p>While much philanthropy relies on innovation to provide assistance, this step of the Process for BeLocal couldn&rsquo;t be more different from traditional organizations.  Traditional organizations either address a single topic (Save the&mldr;.) or are formed around how a single innovation can serve one or more populations (Let&rsquo;s give everyone ...).  At this stage in the BeLocal Process, we have carefully built up a collection of well defined Problems, all of which identify exactly which Challenges they address and how, each of which has been documented and sourced from those being served.  This insures that any solutions to these problems will directly address the observed and reported obstacles in the lives of those being served.</p>
-          <br>
-          <p>It is now, that participants in the BeLocal Process get the opportunity to innovate solutions to these problems.  For a solution to be viable it must provide detailed methodology for implementation, both for testing, such as building a prototype and for sustainable production.  It must meet the listed constraints, some of which are imposed by BeLocal, such as ethical concerns or sustainability issues.  Others may be more specific to the locale. For instance, in a village near a jungle at risk, any solution that requires burning wood and whose very success would likely result in deforestation would not pass muster.  Some constraints may simply be the cost under which a pilot project can be performed.</p>
-          <br>
-          <p>Once these issues are addressed, the innovation is ready for selection for testing in a pilot project.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Pilot -->
-  <div class="modal fade pilotModal" tabindex="-1" role="dialog" aria-labelledby="pilotModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal ">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>Pilot</h1>
-          <p>The BeLocal Process is designed to accelerate the process of innovation through crowd sourced innovation.  At this phase of the process, having done so, there is a pipeline of solutions all of which are potential candidates for testing.  As our stated goal is to empower people to make their own lives better, those being served are welcome to participate in any phase they are able.  However, the Process truly shifts the agency of change by insuring their participation in the three phases of Discover, Pilot, and Impact.  In the Pilot step, the participation of those being served provides inexpensive validation as to the performance of solutions.  The local feedback is crucial to evaluate the likely adoption of such a solution if implemented.  Furthermore, the performance data resulting from the pilot can help predict the impact on investment (ioi) that delivering such a solution may have. </p>
-          <br>
-          <p>The selection of which solutions are piloted is a balance between prioritization based on local feedback, design, projected impact, funding, and practicality.  While all the solutions may not get piloted, those that do already have a much better chance of success than the conjecture that is at the heart of traditional philanthropic organizations, that the solution they are proposing will work and be adopted by those they are trying to serve.</p>
-          <br>
-          <p>For example, in Madagascar we have been told, much of the population is provided with mosquito netting to help prevent the disease and parasites that mosquitoes spread.  However, mosquito netting is the strongest and finest netting that many of the villages ever own.  As such, despite being covered in poisons intended for the mosquitos they are typically employed as either fishing nets or to shade the crops.  This is an example of a valid solution deployed without proper agency.  The solutions coming out of the BeLocal Process have been sourced by the people and are piloted by the people. By piloting the  adoption of a solution, such as the mosquito netting as fishing nets or shades, the BeLocal Pilot stage would quickly identify solutions that are not yet ready for delivery and do so at a greatly reduced cost.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Impact -->
-  <div class="modal fade impactModal" tabindex="-1" role="dialog" aria-labelledby="impactModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content about-offwhite-bg-modal ">
-        <div class="modal-body text-center">
-          <span data-dismiss="modal" aria-label="Close" aria-hidden="true"><i class="fa fa-times"></i></span>
-          <h1>Impact</h1>
-          <p>Having identified the solutions that are ready for adoption, the Impact stage is where BeLocal can begin to help people truly make their lives better.  BeLocal identifies, wherever possible, local individuals and organizations that can deliver these solutions.  BeLocal identifies, and partners with, organizations capable of providing proper support and expertise to these local participants.  This support can come in many forms from investment capital, to business acumen, from training to service trips,. Whatever the form of support, the goal is to deliver the solution in a self-sustaining form, to insure its ongoing success and to, when possible, get synergistic effects that improves lives across the community.  The delivery of a solution must include a plan for recording the impact of the solution and the lessons learned.  By doing so, the knowledge gained by the deployment of a solution can be leveraged in all steps of the BeLocal Process, improving the quality and rate of innovation for future solutions.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END THE BELOCAL PROCESS MODALS -->
   <!-- ABOUT THE TEAM MODALS -->
   <!-- Jeff Nagel -->
   <div class="modal fade jeffNagelModal" tabindex="-1" role="dialog" aria-labelledby="jeffNagelModal">
@@ -246,7 +133,6 @@
 <!-- ****** END MODALS ****** -->
   <div style="border-bottom: 3px solid #1371d6;" class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
     <h3 class="aboutSubText">We believe that great innovation starts with empathy for the people we serve.  Our process begins and ends with their input because our success is measured by their voluntary adoption of innovations that <span class="blue">improve their lives</span>.  We believe that agency matters and makes for the best long term changes.  BeLocal is ultimately about empowering people to make their own lives better.</h3>
-    <!--<span class="btn" data-toggle="modal" data-target=".programDevModal">See More</span>-->
   </div>
   <div class="about-offwhite-bg mediumTopPadding mediumBottomPadding container text-center">
     <h1 class="aboutMainHeading">BeLocal Partnership</h1>

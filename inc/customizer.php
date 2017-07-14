@@ -7,6 +7,12 @@
       'priority'  => 130
     ));
 
+    $wp_customize->add_section('about',array(
+      'title'  => __('About Page', 'belocal'),
+      'descripton'  => sprintf(__('Options for the about page', 'belocal')),
+      'priority'  => 130
+    ));
+
 
     //*******************************************
     //Showcase Image
@@ -359,6 +365,22 @@
     //   'section'  => 'showcase',
     //   'priority'  => 9
     // ));
+
+    //*******************************************
+    //About Hero Image
+    //*******************************************
+    $wp_customize->add_setting('about_image', array(
+      'default'  => get_bloginfo('template_directory').'/img/aboutHero2.jpg',
+      'type'  => 'theme_mod'
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'about_image', array(
+      'label'  => __('Hero Image', 'belocal'),
+      'section'  => 'about',
+      'settings'  => 'about_image',
+      'priority'  => 1
+    )));
+
 
   }
 

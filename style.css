@@ -761,7 +761,6 @@ body {
 5.1 - Landing Hero
 --------------------------------------------------------------*/
 #aboutHeroImage {
-  background-image: url('img/aboutHero2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
