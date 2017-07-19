@@ -338,18 +338,18 @@ footer .footer-nav .menu-footer-navigation li {
 
 @media screen and (max-width: 800px) {
   #initiativesHome h1 {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   #initiativesHome span {
     font-size: 5vw;
   }
 }
 
-#initiativesHome span:hover {
+/*#initiativesHome span:hover {
   background-color: #50BF41;
   border: 1px solid #50BF41;
   color: #fff;
-}
+}*/
 
 #initiativesHome a:hover {
   text-decoration: none;

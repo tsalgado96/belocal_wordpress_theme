@@ -3,13 +3,13 @@ $(document).ready(function(){
   $('.initiative-slider').slick({
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2250,
     arrows: false,
     mobileFirst: true,
     pauseOnHover: false,
     adaptiveHeight: true,
     fade: true,
-    speed: 600
+    speed: 2500
   });
 
 });
