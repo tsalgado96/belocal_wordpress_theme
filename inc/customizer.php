@@ -1,19 +1,15 @@
 <?php
   function blg_customize_register($wp_customize){
-
     $wp_customize->add_section('showcase',array(
       'title'  => __('Landing Page', 'belocal'),
       'descripton'  => sprintf(__('Options for showcase', 'belocal')),
       'priority'  => 130
     ));
-
     $wp_customize->add_section('about',array(
       'title'  => __('About Page', 'belocal'),
       'descripton'  => sprintf(__('Options for the about page', 'belocal')),
       'priority'  => 130
     ));
-
-
     //*******************************************
     //Showcase Image
     //*******************************************
@@ -21,14 +17,12 @@
       'default'  => get_bloginfo('template_directory').'/img/showcase.jpg',
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'showcase_image', array(
       'label'  => __('Showcase Image', 'belocal'),
       'section'  => 'showcase',
       'settings'  => 'showcase_image',
       'priority'  => 1
     )));
-
     //*******************************************
     //Current Initiative Image
     //*******************************************
@@ -36,12 +30,11 @@
       'default'  => get_bloginfo('template_directory').'/img/initiative.jpg',
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'initiative_image', array(
       'label'  => __('Current Initiative Image', 'belocal'),
       'section'  => 'showcase',
       'settings'  => 'initiative_image',
-      'priority'  => 4
+      'priority'  => 2
     )));
     //*******************************************
     //Current Initiative Heading
@@ -50,15 +43,11 @@
       'default'  => _x('Madagascar', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('initiative_heading', array(
       'label'  => __('Current Initiative', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 5
+      'priority'  => 3
     ));
-
-
-
     //*******************************************
     //BeLocal Process Heading
     //*******************************************
@@ -66,11 +55,10 @@
       'default'  => _x('The BeLocal Process', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_heading', array(
       'label'  => __('Process Heading', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 5
+      'priority'  => 4
     ));
     //*******************************************
     //BeLocal Process Subheading
@@ -79,16 +67,24 @@
       'default'  => _x('The BeLocal Process Subheading', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_subheading', array(
       'label'  => __('Process Subheading', 'belocal'),
       'section'  => 'showcase',
       'type'     => 'textarea',
       'priority'  => 5
     ));
-
-
-
+    //*******************************************
+    //BeLocal Process Button Toggle
+    //*******************************************
+    $wp_customize->add_setting('process_buttons', array(
+      'default'  => 0
+    ));
+    $wp_customize->add_control('process_buttons', array(
+      'label'  => __('Disable Process Buttons?', 'belocal'),
+      'section'  => 'showcase',
+      'type'     => 'checkbox',
+      'priority'  => 6
+    ));
     //*******************************************
     //BeLocal Process Phase 1 Heading
     //*******************************************
@@ -96,11 +92,10 @@
       'default'  => _x('Discover', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase1Heading', array(
       'label'  => __('Phase 1 Heading', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 5
+      'priority'  => 7
     ));
     //*******************************************
     //BeLocal Process Phase 1 Subheading
@@ -109,12 +104,11 @@
       'default'  => _x('Phase 1 Subheading', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase1Subheading', array(
       'label'  => __('Phase 1 Subheading', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 8
     ));
     //*******************************************
     //BeLocal Process Phase 1 Modal
@@ -123,15 +117,12 @@
       'default'  => _x('Phase 1 Popup', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase1Modal', array(
       'label'  => __('Phase 1 Popup Text', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 9
     ));
-
-
     //*******************************************
     //BeLocal Process Phase 2 Heading
     //*******************************************
@@ -139,11 +130,10 @@
       'default'  => _x('Define', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase2Heading', array(
       'label'  => __('Phase 2 Heading', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 5
+      'priority'  => 10
     ));
     //*******************************************
     //BeLocal Process Phase 2 Subheading
@@ -152,12 +142,11 @@
       'default'  => _x('Phase 2 Subheading', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase2Subheading', array(
       'label'  => __('Phase 2 Subheading', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 11
     ));
     //*******************************************
     //BeLocal Process Phase 2 Modal
@@ -166,16 +155,12 @@
       'default'  => _x('Phase 2 Popup', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase2Modal', array(
       'label'  => __('Phase 2 Popup Text', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 12
     ));
-
-
-
     //*******************************************
     //BeLocal Process Phase 3 Heading
     //*******************************************
@@ -183,11 +168,10 @@
       'default'  => _x('Innovate', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase3Heading', array(
       'label'  => __('Phase 3 Heading', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 5
+      'priority'  => 13
     ));
     //*******************************************
     //BeLocal Process Phase 3 Subheading
@@ -196,12 +180,11 @@
       'default'  => _x('Phase 3 Subheading', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase3Subheading', array(
       'label'  => __('Phase 3 Subheading', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 14
     ));
     //*******************************************
     //BeLocal Process Phase 3 Modal
@@ -210,16 +193,12 @@
       'default'  => _x('Phase 3 Popup', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase3Modal', array(
       'label'  => __('Phase 3 Popup Text', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 15
     ));
-
-
-
     //*******************************************
     //BeLocal Process Phase 4 Heading
     //*******************************************
@@ -227,11 +206,10 @@
       'default'  => _x('Pilot', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase4Heading', array(
       'label'  => __('Phase 4 Heading', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 5
+      'priority'  => 16
     ));
     //*******************************************
     //BeLocal Process Phase 4 Subheading
@@ -240,12 +218,11 @@
       'default'  => _x('Phase 4 Subheading', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase4Subheading', array(
       'label'  => __('Phase 4 Subheading', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 17
     ));
     //*******************************************
     //BeLocal Process Phase 4 Modal
@@ -254,16 +231,12 @@
       'default'  => _x('Phase 4 Popup', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase4Modal', array(
       'label'  => __('Phase 4 Popup Text', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 18
     ));
-
-
-
     //*******************************************
     //BeLocal Process Phase 5 Heading
     //*******************************************
@@ -271,11 +244,10 @@
       'default'  => _x('Impact', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase5Heading', array(
       'label'  => __('Phase 5 Heading', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 5
+      'priority'  => 19
     ));
     //*******************************************
     //BeLocal Process Phase 5 Subheading
@@ -284,12 +256,11 @@
       'default'  => _x('Phase 5 Subheading', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase5Subheading', array(
       'label'  => __('Phase 5 Subheading', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 20
     ));
     //*******************************************
     //BeLocal Process Phase 5 Modal
@@ -298,16 +269,12 @@
       'default'  => _x('Phase 5 Popup', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('process_phase5Modal', array(
       'label'  => __('Phase 5 Popup Text', 'belocal'),
       'section'  => 'showcase',
       'type'   => 'textarea',
-      'priority'  => 5
+      'priority'  => 21
     ));
-
-
-
     //*******************************************
     //Join Team Image
     //*******************************************
@@ -315,14 +282,12 @@
       'default'  => get_bloginfo('template_directory').'/img/join.jpg',
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'join_image', array(
       'label'  => __('Join Team Image', 'belocal'),
       'section'  => 'showcase',
       'settings'  => 'join_image',
-      'priority'  => 6
+      'priority'  => 22
     )));
-
     //*******************************************
     //Join Team Heading
     //*******************************************
@@ -330,13 +295,11 @@
       'default'  => _x('Join Our Team', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('join_heading', array(
       'label'  => __('Join Our Team Heading', 'belocal'),
       'section'  => 'showcase',
-      'priority'  => 7
+      'priority'  => 23
     ));
-
     //*******************************************
     //Join Team Description
     //*******************************************
@@ -344,14 +307,12 @@
       'default'  => _x('Default description.', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('join_text', array(
       'label'  => __('Text', 'belocal'),
       'section'  => 'showcase',
       'type'  => 'textarea',
-      'priority'  => 8
+      'priority'  => 24
     ));
-
     // //*******************************************
     // //Join Team Button Text
     // //*******************************************
@@ -365,7 +326,6 @@
     //   'section'  => 'showcase',
     //   'priority'  => 9
     // ));
-
     //*******************************************
     //About Hero Image
     //*******************************************
@@ -373,14 +333,12 @@
       'default'  => get_bloginfo('template_directory').'/img/aboutHero2.jpg',
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'about_image', array(
       'label'  => __('Hero Image', 'belocal'),
       'section'  => 'about',
       'settings'  => 'about_image',
       'priority'  => 1
     )));
-
     //*******************************************
     //About Hero Text
     //*******************************************
@@ -388,13 +346,11 @@
       'default'  => _x('About Us', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('about_hero_text', array(
       'label'  => __('Page Heading', 'belocal'),
       'section'  => 'about',
-      'priority'  => 8
+      'priority'  => 2
     ));
-
     //*******************************************
     //About Mission Statement Heading
     //*******************************************
@@ -402,11 +358,10 @@
       'default'  => _x('Mission Statement', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('about_statement_heading', array(
       'label'  => __('Statement Heading', 'belocal'),
       'section'  => 'about',
-      'priority'  => 8
+      'priority'  => 3
     ));
     //*******************************************
     //About Mission Statement Subtext
@@ -415,17 +370,12 @@
       'default'  => _x('Default description', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('about_statement_subtext', array(
       'label'  => __('Statement Subtext', 'belocal'),
       'section'  => 'about',
       'type'  => 'textarea',
-      'priority'  => 8
+      'priority'  => 4
     ));
-
-
-
-
     //*******************************************
     //About Partnership Heading
     //*******************************************
@@ -433,11 +383,10 @@
       'default'  => _x('BeLocal Partnership', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('about_partnership_heading', array(
       'label'  => __('Partnership Heading', 'belocal'),
       'section'  => 'about',
-      'priority'  => 8
+      'priority'  => 5
     ));
     //*******************************************
     //About Partnership Subtext
@@ -446,15 +395,11 @@
       'default'  => _x('Default description', 'belocal'),
       'type'  => 'theme_mod'
     ));
-
     $wp_customize->add_control('about_partnership_subtext', array(
       'label'  => __('Partnership Subtext', 'belocal'),
       'section'  => 'about',
       'type'  => 'textarea',
-      'priority'  => 8
+      'priority'  => 6
     ));
-
-
   }
-
   add_action('customize_register', 'blg_customize_register');

@@ -169,6 +169,10 @@
     <h1>Current Initiative</h1>
     <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
   </div>
+
+
+
+
   <section id="process" class="container-fluid text-center">
     <div class="maxContainer">
       <h1><?php echo get_theme_mod('process_heading', 'The BeLocal Process'); ?></h1>
@@ -176,23 +180,23 @@
 
       <h2><span class="green1"><?php echo get_theme_mod('process_phase1Heading', 'The BeLocal Process Phase 1'); ?></span></h2>
       <p><?php echo get_theme_mod('process_phase1Subheading', 'The BeLocal Process Phase 1'); ?></p>
-      <button class="btn" type="button" name="button" data-toggle="modal" data-target=".discoverModal">Learn More</button>
+      <button <?php echo ( get_theme_mod('process_buttons')) ? "style='display: none;'" : "" ?> class="btn" type="button" name="button" data-toggle="modal" data-target=".discoverModal">Learn More</button>
 
       <h2><span class="green2"><?php echo get_theme_mod('process_phase2Heading', 'The BeLocal Process Phase 2'); ?></span></h2>
       <p><?php echo get_theme_mod('process_phase2Subheading', 'The BeLocal Process Phase 2'); ?></p>
-      <button class="btn" type="button" name="button" data-toggle="modal" data-target=".defineModal">Learn More</button>
+      <button <?php echo ( get_theme_mod('process_buttons')) ? "style='display: none;'" : "" ?> class="btn" type="button" name="button" data-toggle="modal" data-target=".defineModal">Learn More</button>
 
       <h2><span class="green3"><?php echo get_theme_mod('process_phase3Heading', 'The BeLocal Process Phase 3'); ?></span></h2>
       <p><?php echo get_theme_mod('process_phase3Subheading', 'The BeLocal Process Phase 3'); ?></p>
-      <button class="btn" type="button" name="button" data-toggle="modal" data-target=".innovateModal">Learn More</button>
+      <button <?php echo ( get_theme_mod('process_buttons')) ? "style='display: none;'" : "" ?> class="btn" type="button" name="button" data-toggle="modal" data-target=".innovateModal">Learn More</button>
 
       <h2><span class="green4"><?php echo get_theme_mod('process_phase4Heading', 'The BeLocal Process Phase 4'); ?></span></h2>
       <p><?php echo get_theme_mod('process_phase4Subheading', 'The BeLocal Process Phase 4'); ?></p>
-      <button class="btn" type="button" name="button" data-toggle="modal" data-target=".pilotModal">Learn More</button>
+      <button <?php echo ( get_theme_mod('process_buttons')) ? "style='display: none;'" : "" ?> class="btn" type="button" name="button" data-toggle="modal" data-target=".pilotModal">Learn More</button>
 
       <h2><span class="green5"><?php echo get_theme_mod('process_phase5Heading', 'The BeLocal Process Phase 5'); ?></span></h2>
       <p><?php echo get_theme_mod('process_phase5Subheading', 'The BeLocal Process Phase 5'); ?></p>
-      <button class="btn" type="button" name="button" data-toggle="modal" data-target=".impactModal">Learn More</button>
+      <button <?php echo ( get_theme_mod('process_buttons')) ? "style='display: none;'" : "" ?> class="btn" type="button" name="button" data-toggle="modal" data-target=".impactModal">Learn More</button>
 
     </div>
   </section>
