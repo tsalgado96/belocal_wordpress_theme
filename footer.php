@@ -14,6 +14,8 @@
   <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.2.1.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/slick/slick.min.js"></script>
   <!-- Main JS File -->
   <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 </body>

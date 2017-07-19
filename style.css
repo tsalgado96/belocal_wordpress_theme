@@ -287,14 +287,42 @@ footer .footer-nav .menu-footer-navigation li {
 2.3 - Initiatives
 --------------------------------------------------------------*/
 #initiativesHome {
-  padding-top: 50px;
-  padding-bottom: 150px;
+  padding: 0;
+  position: relative;
+}
+
+#initiativesHome .overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#initiativesHome .initiative-slider {
+  max-height: 650px;
+  overflow: hidden;
+}
+
+#initiativesHome .initiative-slider img {
+  width: 100%;
+}
+
+#initiativesHome .initiative-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translate(-50%, -70%);
+  text-align: center;
 }
 
 #initiativesHome h1 {
   color: #fff;
   font-weight: 300;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 #initiativesHome span {
@@ -308,9 +336,12 @@ footer .footer-nav .menu-footer-navigation li {
   font-weight: 300;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
+  #initiativesHome h1 {
+    font-size: 5vw;
+  }
   #initiativesHome span {
-    font-size: 15vw;
+    font-size: 5vw;
   }
 }
 

@@ -1,4 +1,16 @@
 $(document).ready(function(){
+  // Slick Slider
+  $('.initiative-slider').slick({
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    mobileFirst: true,
+    pauseOnHover: false,
+    adaptiveHeight: true,
+    fade: true,
+    speed: 600
+  });
 
 });
 

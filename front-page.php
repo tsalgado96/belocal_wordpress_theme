@@ -12,6 +12,8 @@
 
     <!-- Google Fonts: Raleway -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700" rel="stylesheet">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slick/slick.css"/>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
@@ -36,7 +38,7 @@
         justify-content: center;
         align-items: center;
       }
-
+/*
       #initiativesHome {
         background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(<?php echo get_theme_mod('initiative_image', get_bloginfo('template_url').'/img/initiative.jpg'); ?>);
         background-size: cover;
@@ -44,7 +46,7 @@
         background-position: center;
         overflow: auto;
       }
-
+*/
       #opportunities {
         background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(<?php echo get_theme_mod('join_image', get_bloginfo('template_url').'/img/join.jpg'); ?>);
         background-size: cover;
@@ -165,14 +167,24 @@
       <h3>The developing world faces many everyday challenges where innovation could help, but they lack access to experienced innovators.  At the same time, there are many creative innovators all over the world who would like to help, but don’t have access to local problems.  BeLocal provides the right connection.</h3>
     </div>
   </section>
-  <div id="initiativesHome" class="container-fluid content text-center">
-    <h1>Current Initiative</h1>
-    <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
-  </div>
-
-
-
-
+  <section id="initiativesHome" class="container-fluid content text-center">
+    <div class="initiative-slider">
+      <img src="<?php bloginfo('template_url'); ?>/img/initiativeSlider1.jpg" alt="">
+      <img src="<?php bloginfo('template_url'); ?>/img/initiativeSlider2.jpg" alt="">
+      <img src="<?php bloginfo('template_url'); ?>/img/initiativeSlider3.jpg" alt="">
+      <img src="<?php bloginfo('template_url'); ?>/img/initiativeSlider4.jpg" alt="">
+      <img src="<?php bloginfo('template_url'); ?>/img/initiativeSlider5.jpg" alt="">
+      <img src="<?php bloginfo('template_url'); ?>/img/initiativeSlider6.jpg" alt="">
+      <img src="<?php bloginfo('template_url'); ?>/img/initiativeSlider8.jpg" alt="">
+    </div>
+    <div class="overlay"></div>
+    <div class="container-fluid">
+      <div class="initiative-text">
+        <h1>Current Initiative</h1>
+        <!--<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About' ) ) ); ?>">--><span class="whiteBorder"><?php echo get_theme_mod('initiative_heading', 'Madagascar'); ?></span><!--</a>-->
+      </div>
+    </div>
+  </section>
   <section id="process" class="container-fluid text-center">
     <div class="maxContainer">
       <h1><?php echo get_theme_mod('process_heading', 'The BeLocal Process'); ?></h1>
